@@ -1,0 +1,589 @@
+id,status,government_id,symptom_id,blood_pressure,oxygen_level,body_temp,symptoms,other_diseases,diagnosed_date,age,gender,detected_city,detected_district,detected_state,nationality,current_status,status_change_date,notes
+0,P,1001,101,140,78,99,H,Cholestrol,30/01/2020,20,F,Thrissur,Thrissur,Kerala,India,R,14/02/2020,Travelled from Wuhan
+1,P,1002,101,140,79,96,L,None,02/02/2020,21,M,Alappuzha,Alappuzha,Kerala,India,R,14/02/2020,Travelled from Wuhan
+2,P,1003,102,140,75,95,L,sugar,03/02/2020,22,F,Kasaragod,Kasaragod,Kerala,India,R,14/02/2020,Travelled from Wuhan
+3,P,1004,103,140,80,94,H,None,02/03/2020,45,M,East Delhi (Mayur Vihar),East Delhi,Delhi,India,R,15/03/2020,"Travelled from Austria, Italy"
+4,P,1005,104,140,80,93,L,skillproblem,02/03/2020,24,M,Hyderabad,Hyderabad,Telangana,India,R,02/03/2020,"Travelled from Dubai to Bangalore on 20th Feb, stayed there for 2 days and took a bus to Hyderabad"
+5,P,1006,105,140,80,92,H,sugar,03/03/2020,69,M,Jaipur,Italians,Rajasthan,Italy,R,03/03/2020,Travelled from Italy
+6,P,1007,106,140,80,91,L,None,04/03/2020,55,M,Gurugram,Italians,Haryana,Italy,R,29/03/2020,Travelled from Italy
+7,P,1008,107,140,80,90,H,skillproblem,04/03/2020,55,M,Gurugram,Italians,Haryana,Italy,R,29/03/2020,Travelled from Italy
+8,P,1009,108,140,80,89,L,sugar,04/03/2020,55,M,Gurugram,Italians,Haryana,Italy,R,29/03/2020,Travelled from Italy
+9,P,1010,103,140,80,88,H,None,04/03/2020,55,M,Gurugram,Italians,Haryana,Italy,R,29/03/2020,Travelled from Italy
+10,P,1011,104,140,80,87,L,skillproblem,04/03/2020,55,M,Gurugram,Italians,Haryana,Italy,R,29/03/2020,Travelled from Italy
+11,P,1012,105,140,80,86,H,sugar,04/03/2020,55,M,Gurugram,Italians,Haryana,Italy,R,29/03/2020,Travelled from Italy
+12,P,1013,106,140,80,85,L,None,04/03/2020,55,F,Gurugram,Italians,Haryana,Italy,R,29/03/2020,Travelled from Italy
+13,P,1014,107,140,80,84,H,skillproblem,04/03/2020,55,F,Gurugram,Italians,Haryana,Italy,R,29/03/2020,Travelled from Italy
+14,P,1015,101,140,80,83,L,sugar,04/03/2020,55,F,Gurugram,Italians,Haryana,Italy,R,29/03/2020,Travelled from Italy
+15,P,1016,101,140,80,82,H,None,04/03/2020,55,F,Gurugram,Italians,Haryana,Italy,R,29/03/2020,Travelled from Italy
+16,P,1017,101,140,80,97,L,None,04/03/2020,55,M,Gurugram,Italians,Haryana,Italy,R,29/03/2020,Travelled from Italy
+17,P,1018,101,140,80,94,H,None,04/03/2020,55,F,Gurugram,Italians,Haryana,Italy,H,29/03/2020,Travelled from Italy
+18,P,1019,101,80,80,93,L,None,04/03/2020,55,F,Gurugram,Italians,Haryana,Italy,H,04/03/2020,Travelled from Italy
+19,N,1020,101,80,80,93,H,None,04/03/2020,55,M,Gurugram,Italians,Haryana,Italy,H,04/03/2020,Travelled from Italy
+20,N,1021,101,80,80,93,L,None,04/03/2020,70,F,Jaipur,Italians,Rajasthan,Italy,R,04/03/2020,"Travelled from Italy, Wife of P6"
+21,N,1022,101,80,80,93,L,None,04/03/2020,22,M,Agra,Agra,Uttar Pradesh,India,H,04/03/2020,Family members of P4
+22,N,1023,101,80,80,93,L,None,04/03/2020,33,F,Agra,Agra,Uttar Pradesh,India,R,15/03/2020,Family members of P4
+23,N,1024,101,80,80,93,L,None,04/03/2020,45,F,Agra,Agra,Uttar Pradesh,India,R,15/03/2020,Family members of P4
+24,N,1025,103,80,80,93,L,None,04/03/2020,44,M,Agra,Agra,Uttar Pradesh,India,R,15/03/2020,Family members of P4
+25,P,1026,103,80,80,93,L,None,04/03/2020,16,M,Agra,Agra,Uttar Pradesh,India,R,15/03/2020,Family members of P4
+26,P,1027,103,80,80,93,L,None,04/03/2020,55,F,Agra,Agra,Uttar Pradesh,India,H,04/03/2020,Family members of P4
+27,P,1028,103,80,80,93,L,None,04/03/2020,66,F,Agra,Agra,Uttar Pradesh,India,H,04/03/2020,"Accompanied the Italian tourists, Nationality: Indian"
+28,P,1029,103,80,80,93,L,None,05/03/2020,27,M,Janakpuri,South West Delhi,Delhi,India,H,05/03/2020,"Travelled from Italy PayTm Emp, "
+29,P,1030,105,80,80,93,L,None,05/03/2020,59,M,Ghaziabad,Ghaziabad,Uttar Pradesh,India,R,05/03/2020,Travelled from Iran
+30,P,1031,104,80,80,93,L,None,06/03/2020,23,F,Uttam Nagar,West Delhi,Delhi,India,R,15/03/2020,Travelled from Thailand and Malaysia
+31,P,1032,105,80,80,93,L,None,07/03/2020,65,M,Ladakh,Leh,Ladakh,India,H,07/03/2020,Travelled from Iran
+32,P,1033,105,80,80,93,H,None,07/03/2020,75,M,Ladakh,Leh,Ladakh,India,H,07/03/2020,
+33,P,1034,105,80,80,93,H,None,07/03/2020,45,M,Kancheepuram,Kancheepuram,Tamil Nadu,India,R,07/03/2020,Travelled from Oman to Chennai Airport on 28.02.2020
+34,P,1035,105,80,80,93,H,None,08/03/2020,24,M,Ranni,Pathanamthitta,Kerala,India,R,27/03/2020,Travelled from Italy on 29/02/2020 through Doha
+35,P,1036,105,80,80,93,H,None,08/03/2020,54,M,Ranni,Pathanamthitta,Kerala,India,R,29/03/2020,Travelled from Italy on 29/02/2020 through Doha
+36,N,1037,105,80,80,93,H,None,08/03/2020,53,F,Ranni,Pathanamthitta,Kerala,India,R,29/03/2020,Travelled from Italy on 29/02/2020 through Doha
+37,P,1038,104,80,80,93,H,None,08/03/2020,65,M,Ranni,Pathanamthitta,Kerala,India,R,29/03/2020,Relative and neighbour of P35-P37
+38,N,1039,104,80,80,93,H,fever,08/03/2020,61,F,Ranni,Pathanamthitta,Kerala,India,R,29/03/2020,Relative  and neighbour of P35-P37
+39,P,1040,104,80,80,93,H,fever,09/03/2020,25,F,Tri Nagar,North Delhi,Delhi,India,H,09/03/2020,No travel history
+40,P,1041,104,80,80,93,H,fever,09/03/2020,63,F,Jammu,Jammu,Jammu and Kashmir,India,H,09/03/2020,Travelled from Iran
+41,P,1042,104,80,80,93,H,fever,09/03/2020,46,M,Bengaluru,Bengaluru Urban,Karnataka,India,R,27/03/2020,"Travelled from US via London, Mindtree Employee"
+42,P,1043,104,80,80,93,H,fever,09/03/2020,77,M,Kannur,Kannur,Kerala,India,R,26/03/2020,Travelled from Italy on 07/03/2020 (Parents in isolation)
+43,P,1044,104,80,80,93,H,fever,09/03/2020,77,M,Pune,Pune,Maharashtra,India,R,25/03/2020,"Travelled from Dubai on 1 March, Husband of P45"
+44,P,1045,104,80,80,93,H,fever,09/03/2020,44,F,Pune,Pune,Maharashtra,India,R,25/03/2020,"Travelled from Dubai on 1 March, Wife of P44"
+45,P,1046,104,80,80,93,L,fever,09/03/2020,25,M,Amritsar,Amritsar,Punjab,Italy,H,09/03/2020,Travelled from Italy
+46,P,1047,104,80,80,93,H,fever,09/03/2020,25,M,Agra,Agra,Uttar Pradesh,India,R,20/03/2020,Factory Manager contact with businessman from Italy
+47,P,1048,104,80,80,93,L,fever,09/03/2020,48,M,Agra,Agra,Uttar Pradesh,India,H,09/03/2020,Was in contact with P22-P27
+48,P,1049,104,80,80,93,H,fever,10/03/2020,48,F,Kozhencherry,Pathanamthitta,Kerala,India,R,03/04/2020,"Friends of P35, P36, P37"
+49,N,1050,104,80,80,93,L,fever,10/03/2020,48,M,Kozhencherry,Pathanamthitta,Kerala,India,H,10/03/2020,"Friends of P35, P36, P37"
+50,N,1051,104,80,80,93,H,fever,10/03/2020,40,M,Bengaluru,Bengaluru Urban,Karnataka,India,R,24/03/2020,"Travelled from US on Feb 28, Dell Employee"
+51,N,1052,104,80,80,93,L,fever,10/03/2020,47,F,Bengaluru,Bengaluru Urban,Karnataka,India,R,27/03/2020,Wife of P51
+52,N,1053,104,80,80,93,H,fever,10/03/2020,13,F,Bengaluru,Bengaluru Urban,Karnataka,India,R,24/03/2020,Daughter of P51 and P52
+53,P,1054,104,80,80,93,L,fever,10/03/2020,13,M,Kochi,Ernakulam,Kerala,India,R,26/03/2020,Father of P43
+54,P,1055,104,80,80,93,H,fever,10/03/2020,13,F,Kochi,Ernakulam,Kerala,India,R,26/03/2020,Mother of P43
+55,P,1056,104,80,80,93,L,fever,10/03/2020,96,M,Ranni,Pathanamthitta,Kerala,India,R,31/03/2020,Father of P36
+56,P,1057,104,80,80,93,H,fever,10/03/2020,89,F,Ranni,Pathanamthitta,Kerala,India,R,31/03/2020,Mother of P36
+57,P,1058,104,80,80,93,L,fever,10/03/2020,89,M,Chengalam,Kottayam,Kerala,India,R,28/03/2020,Daughter of P36 & P37
+58,N,1059,104,80,80,93,H,fever,10/03/2020,89,F,Chengalam,Kottayam,Kerala,India,R,28/03/2020,Son in law of P36 & P37
+59,N,1060,104,80,80,93,L,fever,10/03/2020,89,F,Pune,Pune,Maharashtra,India,H,10/03/2020,Daughter of P44 & P45
+60,N,1061,104,80,80,93,H,fever,10/03/2020,23,F,Pune,Pune,Maharashtra,India,H,10/03/2020,Co-passenger with P44 & P45 in cab of P62 from Mumbai airport to Pune
+61,N,1062,104,80,80,93,L,fever,10/03/2020,34,M,Pune,Pune,Maharashtra,India,H,10/03/2020,"Cab driver who ferried P44, P45, P61 from Mumbai airport to Pune"
+62,P,1063,104,80,80,93,H,fever,10/03/2020,85,M,Jaipur,Jaipur,Rajasthan,India,H,10/03/2020,Travelled from Dubai
+63,N,1064,104,80,80,93,L,fever,11/03/2020,46,M,Janakpuri,South West Delhi,Delhi,India,H,24/03/2020,"Travelled from Japan, Switzerland and Italy"
+64,N,1065,104,80,80,93,H,fever,11/03/2020,45,M,Chuchot,Leh,Ladakh,India,H,11/03/2020,Travelled from Iran
+65,P,1066,104,80,80,93,L,fever,11/03/2020,70,M,Mumbai,Mumbai,Maharashtra,India,H,11/03/2020,"Travelled from Dubai, Co-passengers P44, P45, spouse of P67"
+66,N,1067,104,80,80,93,H,fever,11/03/2020,68,F,Mumbai,Mumbai,Maharashtra,India,H,11/03/2020,"Travelled from Dubai, Co-passengers P44, P45, spouse of P66"
+67,P,1068,104,80,80,93,L,fever,11/03/2020,56,M,Pimpri-Chinchwad,Pune,Maharashtra,India,H,11/03/2020,"Travelled from Dubai, Co-passengers P44, P45"
+68,P,1069,104,80,80,93,H,fever,11/03/2020,67,F,Pimpri-Chinchwad,Pune,Maharashtra,India,H,11/03/2020,"Travelled from Dubai, Co-passengers P44, P45"
+69,P,1070,104,80,80,93,L,fever,11/03/2020,78,M,Pimpri-Chinchwad,Pune,Maharashtra,India,H,11/03/2020,"Travelled from Dubai, Co-passengers P44, P45"
+70,P,1071,104,80,80,93,H,fever,11/03/2020,45,M,Nagpur,Nagpur,Maharashtra,India,H,12/03/2020,Travelled from US on 6th March
+71,P,1072,104,80,80,93,L,fever,12/03/2020,27,M,Nellore,S.P.S. Nellore,Andhra Pradesh,India,H,01/04/2020,Travelled from Italy on March 6th
+72,P,1073,104,80,80,93,H,fever,12/03/2020,69,F,Janakpuri,South West Delhi,Delhi,India,D,12/03/2020,Mother of P64
+73,P,1074,104,80,80,93,L,fever,12/03/2020,26,M,Bengaluru,Bengaluru Urban,Karnataka,India,R,20/03/2020,"Travelled from Greece to Mumbai on March 6th, Google Employee"
+74,P,1075,104,80,80,93,H,fever,12/03/2020,89,F,Kannur,Kannur,Kerala,India,R,23/03/2020,"Travelled from Dubai, SG 54"
+75,P,1076,104,80,80,93,L,fever,12/03/2020,90,M,Thrissur,Thrissur,Kerala,India,R,24/03/2020,Travelled from Qatar
+76,P,1077,104,80,80,93,H,fever,12/03/2020,65,M,Mumbai,Mumbai,Maharashtra,India,D,12/03/2020,"Travelled from Dubai on March 8, Third death in India, , Was hospitalised in Kasturba Hospital"
+77,P,1078,104,80,80,93,L,fever,12/03/2020,33,M,Pune,Pune,Maharashtra,India,H,12/03/2020,Travelled from US on 1st March
+78,P,1079,104,80,80,93,H,fever,12/03/2020,33,M,Pune,Mumbai,Maharashtra,India,H,12/03/2020,Travelled from France on March 8; Thane Resident
+79,P,1080,104,80,80,93,L,fever,12/03/2020,90,F,Lucknow,Lucknow,Uttar Pradesh,Canada,H,12/03/2020,"Travelled from UK, Canadian Doctor"
+80,P,1081,104,80,80,93,H,fever,12/03/2020,27,M,Ghaziabad,Ghaziabad,Uttar Pradesh,India,H,12/03/2020,Son of P30
+81,P,1082,104,80,80,93,L,fever,13/03/2020,76,M,Kalaburagi,Kalaburagi,Karnataka,India,D,13/03/2020,"Travelled from Saudi on Feb 29, First death in India"
+82,P,1083,104,80,80,93,H,fever,13/03/2020,67,M,Delhi,New Delhi,Delhi,India,H,13/03/2020,"Travelled from Italy, Restaurant worker, Was evacuated"
+83,P,1084,104,80,80,93,L,fever,13/03/2020,45,F,Jammu,Jammu,Jammu and Kashmir,India,H,13/03/2020,Close contact of P41
+84,P,1085,104,80,80,93,H,fever,13/03/2020,56,M,Varkala,Thiruvananthapuram,Kerala,Italy,R,24/03/2020,"Travelled from Italy, Italian national stayed in a resort at Varkala"
+85,P,1086,104,80,80,93,L,fever,13/03/2020,67,F,Nedumangad,Thiruvananthapuram,Kerala,India,R,28/03/2020,"Travelled from Dubai, has visited Italy"
+86,P,1087,104,80,80,93,H,sugar,13/03/2020,67,M,Thiruvananthapuram,Thiruvananthapuram,Kerala,India,R,13/03/2020,Travelled from London via Bahrain 
+87,N,1088,104,80,80,93,L,sugar,13/03/2020,78,F,Nagpur,Nagpur,Maharashtra,India,H,13/03/2020,Wife of P78
+88,N,1089,104,80,80,93,H,sugar,13/03/2020,78,M,Nagpur,Nagpur,Maharashtra,India,H,13/03/2020,Friend of P78
+89,N,1090,104,80,80,93,L,sugar,13/03/2020,56,F,Pune,Pune,Maharashtra,India,H,13/03/2020,Travelled from US
+90,N,1091,104,80,80,93,H,sugar,13/03/2020,34,F,Agra,Agra,Uttar Pradesh,India,H,13/03/2020,Wife of P73
+91,N,1092,104,80,80,93,L,sugar,14/03/2020,34,M,Ahmednagar,Ahmednagar,Maharashtra,India,H,14/03/2020,Travelled from Dubai
+92,N,1093,104,80,80,93,H,sugar,14/03/2020,56,F,Mumbai,Mumbai,Maharashtra,India,H,14/03/2020,Wife of P77
+93,N,1094,104,80,80,93,L,sugar,14/03/2020,76,M,Thane - Vashi,Thane,Maharashtra,India,H,14/03/2020,"Travelled from Dubai on March 8, son of P77"
+94,N,1095,104,80,80,93,H,sugar,14/03/2020,37,M,Kalyan-Dombivali,Thane,Maharashtra,India,H,14/03/2020,"Travelled from US , From Kalyan"
+95,P,1096,104,80,80,93,L,sugar,14/03/2020,59,F,Panvel (Kamothe),Raigad,Maharashtra,India,H,14/03/2020,Travelled from Philippines and were brought in from the Mumbai Airport
+96,N,1097,104,80,80,93,H,sugar,14/03/2020,23,M,Navi Mumbai,Thane,Maharashtra,India,H,14/03/2020,Have international history and were brought in from the Mumbai Airport
+97,N,1098,104,80,80,93,L,sugar,14/03/2020,43,M,Nagpur,Nagpur,Maharashtra,India,H,14/03/2020,"Travelled from US, travelled along with P78"
+98,P,1099,104,80,80,93,H,sugar,14/03/2020,34,F,Yavatmal,Yavatmal,Maharashtra,India,H,14/03/2020,Travelled from Dubai on 1st March
+99,N,1100,104,80,80,93,L,sugar,14/03/2020,45,M,Yavatmal,Yavatmal,Maharashtra,India,H,14/03/2020,Travelled from Dubai on 1st March
+100,N,1101,104,80,80,93,H,sugar,14/03/2020,24,M,Jaipur,Jaipur,Rajasthan,India,H,14/03/2020,Travelled from Spain
+101,P,1102,104,80,80,93,L,sugar,14/03/2020,56,F,Hyderabad,Hyderabad,Telangana,India,H,14/03/2020,Travelled from Italy
+102,P,1103,104,80,80,93,H,sugar,15/03/2020,78,F,Pimpri-Chinchwad,Pune,Maharashtra,India,H,14/03/2020,First contacts or family members of the group of 40 who came back from Dubai earlier
+103,P,1104,104,80,80,93,L,sugar,15/03/2020,45,F,Pimpri-Chinchwad,Pune,Maharashtra,India,H,14/03/2020,First contacts or family members of the group of 40 who came back from Dubai earlier
+104,N,1105,104,80,80,93,H,sugar,15/03/2020,45,F,Pimpri-Chinchwad,Pune,Maharashtra,India,H,14/03/2020,First contacts or family members of the group of 40 who came back from Dubai earlier
+105,P,1106,104,80,80,93,L,sugar,15/03/2020,45,M,Pimpri-Chinchwad,Pune,Maharashtra,India,H,14/03/2020,First contacts or family members of the group of 40 who came back from Dubai earlier
+106,P,1107,102,120,40,93,L,fever,15/03/2020,45,F,Pimpri-Chinchwad,Pune,Maharashtra,India,H,14/03/2020,First contacts or family members of the group of 40 who came back from Dubai earlier
+107,P,1108,104,120,56,93,H,sugar,15/03/2020,45,M,Pimpri-Chinchwad,Pune,Maharashtra,India,H,14/03/2020,First contacts or family members of the group of 40 who came back from Dubai earlier
+108,P,1109,101,120,89,93,L,fever,15/03/2020,21,M,Pimpri-Chinchwad,Pune,Maharashtra,India,H,14/03/2020,Travelled from Thailand
+109,P,1110,103,120,55,93,L,sugar,15/03/2020,21,M,Munnar,Idukki,Kerala,United Kingdom,R,28/03/2020,"Travelled from Dubai, British citizen who had resided in Munnar resort"
+110,P,1111,105,120,23,93,H,fever,15/03/2020,21,M,Thiruvananthapuram,Thiruvananthapuram,Kerala,India,R,02/04/2020,"Travelled from Spain, Doctor"
+111,P,1112,107,120,78,93,L,sugar,15/03/2020,59,F,Aurangabad,Aurangabad,Maharashtra,India,H,15/03/2020,Travelled from Russia and Kazakhstan
+112,P,1113,109,170,77,93,L,fever,15/03/2020,46,M,Hyderabad,Hyderabad,Telangana,India,H,15/03/2020,Travelled from Netherlands March 9
+113,P,1114,111,180,99,99.4,H,sugar,15/03/2020,46,M,Dehradun,Dehradun,Uttarakhand,India,H,15/03/2020,"Travelled from Spain, Italy and Russia March 11"
+114,P,1115,113,180,45,99.4,L,fever,16/03/2020,46,F,Pimpri-Chinchwad,Pune,Maharashtra,India,H,15/03/2020,Travelled from Japan and Dubai before his return on March 3
+115,P,1116,115,180,56,99.4,L,sugar,16/03/2020,46,M,Rajouri,Jammu,Jammu and Kashmir,India,H,16/03/2020,Travelled from Saudi
+116,P,1117,117,180,89,99.4,H,fever,16/03/2020,46,M,Kalaburagi,Kalaburagi,Karnataka,India,R,31/03/2020,Daughter of P74
+117,P,1118,119,180,55,99.4,L,sugar,16/03/2020,46,F,Kalanadu,Kasaragod,Kerala,India,H,16/03/2020,Travelled from Middle East
+118,P,1119,121,180,23,99.4,L,fever,16/03/2020,46,M,Malappuram,Malappuram,Kerala,India,R,02/04/2020,Travelled from Middle East
+119,P,1120,123,180,78,99.4,H,sugar,16/03/2020,46,M,Malappuram,Malappuram,Kerala,India,H,16/03/2020,Travelled from Middle East
+120,P,1121,125,180,77,99.4,L,fever,16/03/2020,47,F,Navi Mumbai,Thane,Maharashtra,Phillipines,H,16/03/2020,"Travelled from Philippines,  Came to Navi Mumbai"
+121,P,1122,127,180,99,99.4,L,sugar,16/03/2020,42,M,Navi Mumbai,Thane,Maharashtra,Phillipines,H,16/03/2020,"Travelled from Philippines,  Came to Navi Mumbai"
+122,P,1123,129,180,45,99.4,H,fever,16/03/2020,42,M,Kalyan-Dombivali,Thane,Maharashtra,India,H,16/03/2020,"Spouse of P95, From Kalyan"
+123,P,1124,131,180,89,99.4,L,sugar,16/03/2020,42,F,Kalyan-Dombivali,Thane,Maharashtra,India,H,16/03/2020,"3 year old from Kalyan, Father P95 /Mother P122"
+124,P,1125,133,180,55,99.4,L,fever,16/03/2020,44,M,Mumbai,Mumbai,Maharashtra,India,H,16/03/2020,Travelled from to Lisbon in Portugal
+125,P,1126,135,180,23,91.2,H,sugar,16/03/2020,51,M,Yavatmal,Yavatmal,Maharashtra,India,H,16/03/2020,Travelled from Dubai on March 1
+126,P,1127,137,180,78,91.2,L,fever,16/03/2020,31,F,Bhubaneswar,Khordha,Odisha,India,H,27/03/2020,Travelled from Italy
+127,P,1128,139,180,77,91.2,L,sugar,16/03/2020,31,M,Hyderabad,Hyderabad,Telangana,India,H,16/03/2020,Travelled from Scotland
+128,P,1129,141,180,99,91.2,H,fever,17/03/2020,31,M,Bengaluru,Bengaluru Urban,Karnataka,India,R,31/03/2020,"Travelled from US via London on March 8, Co Passenger of P82"
+129,P,1130,143,180,45,91.2,L,sugar,17/03/2020,31,F,Delhi,New Delhi,Delhi,India,H,17/03/2020,"Travelled from Italy, 2nd evacuee from Italy in ITBP Chhawla Camp"
+130,P,1131,145,180,89,91.2,L,fever,17/03/2020,31,M,Delhi,New Delhi,Delhi,India,H,17/03/2020,"Travelled from Italy, 3rd evacuee from Italy in ITBP Chhawla Camp"
+131,P,1132,147,180,55,91.2,H,sugar,17/03/2020,31,M,Saket,South Delhi,Delhi,India,M,20/03/2020,Travelled from Singapore (Feb) and Canada (Mar)
+132,P,1133,149,180,23,91.2,L,fever,17/03/2020,31,F,Gurugram,Gurugram,Haryana,India,H,17/03/2020,Travelled from Malaysia
+133,P,1134,151,180,78,91.2,L,sugar,17/03/2020,31,M,Kargil,Kargil,Ladakh,India,H,17/03/2020,Travelled from Iran
+134,P,1135,153,180,77,91.2,H,fever,17/03/2020,31,M,Leh,Leh,Ladakh,India,H,17/03/2020,Travelled from Iran
+135,P,1136,155,180,99,91.2,L,sugar,17/03/2020,31,F,Leh,Leh,Ladakh,India,H,17/03/2020,Travelled from Iran
+136,P,1137,157,180,45,91.2,L,fever,17/03/2020,20,M,Bengaluru,Bengaluru Urban,Karnataka,India,R,02/04/2020,Travelled from UK
+137,P,1138,159,180,89,91.2,H,sugar,17/03/2020,67,M,Bengaluru,Bengaluru Urban,Karnataka,India,R,01/04/2020,Travelled from Dubai
+138,P,1139,161,180,55,91.2,L,fever,17/03/2020,63,F,Kalaburagi,Kalaburagi,Karnataka,India,R,02/04/2020,Doctor of P74
+139,P,1140,163,180,23,91.2,L,sugar,17/03/2020,49,M,Mumbai,Mumbai,Maharashtra,India,H,17/03/2020,Travelled from US on March 7
+140,P,1141,165,180,78,91.2,H,None,17/03/2020,26,M,Pimpri-Chinchwad,Pune,Maharashtra,India,H,17/03/2020,Travelled from US on March 14
+141,P,1142,167,180,77,91.2,L,None,17/03/2020,68,F,Mahe,Mahe,Puducherry,India,H,17/03/2020,Travelled from UAE
+142,P,1143,169,180,99,91.2,L,None,17/03/2020,52,M,Hyderabad,Hyderabad,Telangana,Indonesia,H,17/03/2020,"Indonesian national; The patient had flown into Delhi on March 9 and after a few days took a train to Karimnagar, about 170 km from Hyderabad, for a religious meeting with a group from Indonesia and Malaysia."
+143,N,1144,171,180,45,91.2,H,None,17/03/2020,52,M,Noida,Gautam Buddha Nagar,Uttar Pradesh,India,H,17/03/2020,Sector 78; Contracted from his boss
+144,P,1145,173,180,89,91.2,L,None,17/03/2020,22,F,Noida,Gautam Buddha Nagar,Uttar Pradesh,India,H,17/03/2020,"Travelled from France, Sector 100; "
+145,N,1146,175,180,55,91.2,L,None,17/03/2020,18,M,Kolkata,Kolkata,West Bengal,India,R,17/03/2020,Travelled from United Kingdom (quarantined)
+146,P,1147,177,180,23,91.2,H,None,17/03/2020,34,M,Leh,Leh,Ladakh,India,H,17/03/2020,Indian Army jawan
+147,N,1148,179,180,78,91.2,L,None,17/03/2020,34,F,Leh,Leh,Ladakh,India,H,17/03/2020,"Travelled from Iran, Father of P145, "
+148,P,1149,181,180,77,91.2,L,None,18/03/2020,28,M,Pune,Pune,Maharashtra,India,H,18/03/2020,"Travelled from France & Netherlands, Kasaba Peth Woman,Retuned to India on March 15th"
+149,N,1150,183,180,99,91.2,H,None,18/03/2020,25,M,Lucknow,Lucknow,Uttar Pradesh,India,H,18/03/2020,KGMU Doctor treating infected patients
+150,P,1151,185,180,45,91.2,H,None,18/03/2020,22,F,Hyderabad,Hyderabad,Telangana,India,H,18/03/2020,"Studying BBA at Scotland, Travelled from UK"
+151,N,1152,187,180,45,91.2,H,None,18/03/2020,56,M,Bengaluru ,Bengaluru Urban,Karnataka,India,R,06/04/2020,Travelled from US
+152,N,1153,189,180,45,91.2,H,None,18/03/2020,25,M,Bengaluru ,Bengaluru Urban,Karnataka,India,R,30/03/2020,Travelled from Spain AI136
+153,P,1154,191,180,45,91.2,H,fever,18/03/2020,27,F,Gautam Buddh Nagar,Gautam Buddha Nagar,Uttar Pradesh,India,H,18/03/2020,Travelled from Indonesia
+154,N,1155,193,180,45,91.2,H,fever,18/03/2020,44,M,Gurugram,Gurugram,Haryana,India,H,18/03/2020,Travelled from UK
+155,P,1156,193,180,45,91.2,H,fever,18/03/2020,20,M,Chennai,Chennai,Tamil Nadu,India,H,18/03/2020,Reached Chennai MGR Central from Delhi via Train on 12.03.2020
+156,N,1157,193,180,45,91.2,H,fever,18/03/2020,68,F,Mumbai,Mumbai,Maharashtra,India,H,18/03/2020,"Residing at N Ward,Close contact of P138"
+157,P,1158,193,180,45,91.2,H,fever,18/03/2020,35,M,Bengaluru ,Bengaluru Urban,Karnataka,India,R,05/04/2020,Travelled from the US
+158,N,1159,193,180,45,91.2,H,fever,18/03/2020,21,M,Pimpri-Chinchwad,Pune,Maharashtra,India,H,18/03/2020,"Travelled from Philippines, Singapore and Sri Lanka"
+159,P,1160,193,180,45,91.2,H,fever,18/03/2020,50,F,Shrungartali,Ratnagiri,Maharashtra,India,H,18/03/2020,Travelled from Dubai.
+160,N,1161,193,180,45,91.2,H,fever,18/03/2020,67,M,Khanyar,Srinagar,Jammu and Kashmir,India,H,18/03/2020,Travelled from Saudi Arabia
+161,N,1162,193,180,45,91.2,H,fever,18/03/2020,33,M,Jhunjhunu,Jhunjhunu,Rajasthan,India,H,18/03/2020,Travelled from Italy on March 8
+162,P,1163,193,180,45,91.2,H,fever,18/03/2020,30,F,Jhunjhunu,Jhunjhunu,Rajasthan,India,H,18/03/2020,Travelled from Italy on March 8
+163,N,1164,193,180,45,91.2,H,fever,18/03/2020,30,M,Jhunjhunu,Jhunjhunu,Rajasthan,India,H,18/03/2020,Travelled from Italy on March 8
+164,P,1165,193,180,45,91.2,H,fever,18/03/2020,30,M,Hyderabad,Hyderabad,Telangana,Indonesia,H,18/03/2020,Indonesian
+165,N,1166,193,180,45,91.2,H,fever,18/03/2020,30,F,Hyderabad,Hyderabad,Telangana,Indonesia,H,18/03/2020,Indonesian
+166,P,1167,193,180,45,91.2,H,fever,18/03/2020,30,M,Hyderabad,Hyderabad,Telangana,Indonesia,H,18/03/2020,Indonesian
+167,N,1168,193,180,45,91.2,H,fever,18/03/2020,30,M,Hyderabad,Hyderabad,Telangana,Indonesia,H,18/03/2020,Indonesian
+168,P,1169,193,180,45,91.2,H,fever,18/03/2020,30,F,Hyderabad,Hyderabad,Telangana,Indonesia,H,18/03/2020,Indonesian
+169,N,1170,193,180,45,91.2,H,fever,18/03/2020,30,M,Hyderabad,Hyderabad,Telangana,Indonesia,H,18/03/2020,Indonesian
+170,N,1171,193,180,45,91.2,H,fever,18/03/2020,30,M,Hyderabad,Hyderabad,Telangana,Indonesia,H,18/03/2020,Indonesian
+171,P,1172,193,180,45,91.2,H,fever,18/03/2020,30,F,Gurugram,Gurugram,Haryana,India,H,18/03/2020,Wife of P153
+172,N,1173,193,180,45,91.2,H,fever,18/03/2020,38,M,Dilshad Garden,North East Delhi,Delhi,India,H,18/03/2020,Travelled from Saudi Arabia
+173,P,1174,193,180,45,91.2,H,fever,19/03/2020,23,M,Chandigarh,Chandigarh,Chandigarh,India,H,19/03/2020,Travelled from UK
+174,N,1175,193,180,45,91.2,H,fever,19/03/2020,22,F,Mumbai,Mumbai,Maharashtra,India,H,19/03/2020,Travelled from UK
+175,P,1176,101,180,45,91.2,H,fever,19/03/2020,49,M,Ulhasnagar,Thane,Maharashtra,India,H,19/03/2020,Travelled from Dubai
+176,N,1177,101,180,45,91.2,H,fever,19/03/2020,35,M,Kodagu,Kodagu,Karnataka,India,R,19/03/2020,Travelled from Saudi Arabia
+177,P,1178,101,180,45,91.2,H,fever,19/03/2020,24,F,Ongole,Prakasam,Andhra Pradesh,India,H,19/03/2020,Travelled from UK
+178,N,1179,101,180,45,91.2,H,fever,19/03/2020,24,M,Raipur,Raipur,Chhattisgarh,India,R,19/03/2020,Travelled from UK
+179,N,1180,101,180,45,91.2,H,fever,19/03/2020,24,M,Noida,Gautam Buddha Nagar,Uttar Pradesh,India,H,19/03/2020,Travelled from Japan. HCL Emp
+180,P,1181,101,180,45,91.2,H,fever,19/03/2020,24,F,Lucknow,Lucknow,Uttar Pradesh,India,H,19/03/2020,Travelled from UK
+181,N,1182,101,180,45,91.2,H,fever,19/03/2020,24,M,Lakhimpur Kheri,Lakhimpur Kheri,Uttar Pradesh,India,H,19/03/2020,Travelled from Turkey
+182,P,1183,101,180,45,91.2,H,fever,19/03/2020,21,M,Chennai,Chennai,Tamil Nadu,India,R,28/03/2020,"Travelled from Dublin, Ireland on 17/3"
+183,N,1184,101,180,45,91.2,H,fever,19/03/2020,70,F,Banga,Shahid Bhagat Singh Nagar,Punjab,India,D,19/03/2020,Travelled from Germany via Italy
+184,P,1185,101,180,55,91.2,H,Cholestrol,19/03/2020,47,M,Eriyal,Kasaragod,Kerala,India,H,19/03/2020,Travelled from Dubai via Kozhikode Air India Express IX 344
+185,N,1186,101,180,65,91.2,H,fever,19/03/2020,32,M,Rajkot,Rajkot,Gujarat,India,H,19/03/2020,"Travelled from Mecca, Saudi Arabia"
+186,P,1187,101,180,75,91.2,L,Cholestrol,19/03/2020,21,F,Surat,Surat,Gujarat,India,H,19/03/2020,"Travelled from London, UK via Mumbai"
+187,N,1188,101,180,85,91.2,L,fever,19/03/2020,51,M,Ahmednagar,Ahmednagar,Maharashtra,India,H,19/03/2020,Travelled from Dubai
+188,N,1189,101,180,95,91.2,L,Cholestrol,19/03/2020,51,M,Dehradun,Dehradun,Uttarakhand,India,R,19/03/2020,Travelled from Spain; Indira Gandhi National Forest Academy Trainee
+189,P,1190,101,180,95,91.2,L,fever,19/03/2020,51,F,Dehradun,Dehradun,Uttarakhand,India,H,19/03/2020,Travelled from Spain; Indira Gandhi National Forest Academy Trainee
+190,N,1191,101,180,95,91.2,L,Cholestrol,19/03/2020,51,M,Hyderabad,Hyderabad,Telangana,India,H,19/03/2020,Travelled from UK on 10th Mar
+191,P,1192,101,180,95,91.2,L,fever,19/03/2020,51,M,Hyderabad,Hyderabad,Telangana,India,H,19/03/2020,Travelled from Dubai on 14 Mar
+192,N,1193,101,180,95,91.2,L,Cholestrol,19/03/2020,51,F,Hyderabad,Hyderabad,Telangana,India,H,19/03/2020,Travelled from UK
+193,P,1194,101,180,95,91.2,L,fever,19/03/2020,51,M,Bhubaneswar,Khordha,Odisha,India,H,19/03/2020,Travelled from UK
+194,N,1195,101,180,95,91.2,L,Cholestrol,19/03/2020,51,M,Jaipur,Jaipur,Rajasthan,India,H,19/03/2020,Travelled from Spain via Dubai - New Delhi on 18 Mar; Husband of P195
+195,P,1196,101,180,95,91.2,L,fever,19/03/2020,51,F,Jaipur,Jaipur,Rajasthan,India,H,19/03/2020,Travelled from Spain via Dubai - New Delhi on 18 Mar; Wife of P194
+196,N,1197,102,180,95,91.2,L,Cholestrol,19/03/2020,65,M,Visakapatnam,Visakhapatnam,Andhra Pradesh,India,R,29/03/2020,Travelled from Saudi Arabia on 12 Mar
+197,N,1198,103,180,95,91.2,L,fever,19/03/2020,22,M,Rana Pratap Bagh,North Delhi,Delhi,India,H,19/03/2020,Travelled from London
+198,P,1199,104,180,95,91.2,L,Cholestrol,19/03/2020,22,F,Ashok Vihar,North West Delhi,Delhi,India,H,19/03/2020,Travelled from UK
+199,N,1200,105,180,95,91.2,L,fever,19/03/2020,32,M,Gautam Puri,South Delhi,Delhi,India,H,19/03/2020,Travelled from Mexico
+200,P,1201,106,180,95,91.2,L,Cholestrol,20/03/2020,22,M,Beleghata,Kolkata,West Bengal,India,H,20/03/2020,Travelled to UK
+201,N,1202,107,180,95,91.2,L,fever,20/03/2020,69,F,Mohali,S.A.S. Nagar,Punjab,India,H,20/03/2020,Travelled from UK
+202,P,1203,108,180,95,91.2,L,Cholestrol,20/03/2020,69,M,Chusot,Leh,Ladakh,India,H,20/03/2020,Related to SBI employee (Patient ID Unknown)
+203,N,1204,109,180,95,91.2,L,fever,20/03/2020,69,M,Chusot,Leh,Ladakh,India,H,20/03/2020,Details awaited
+204,P,1205,110,180,95,91.2,L,Cholestrol,20/03/2020,69,F,Jahangirpuri,North West Delhi,Delhi,India,H,20/03/2020,Brother of P171
+205,N,1206,111,180,95,91.2,L,fever,20/03/2020,69,M,Jahangirpuri,North West Delhi,Delhi,India,H,20/03/2020,Mother of P171
+206,N,1207,112,180,95,91.2,L,Cholestrol,20/03/2020,58,M,North Delhi,North Delhi,Delhi,India,H,20/03/2020,Travelled from UK
+207,P,1208,113,180,95,90.2,L,fever,20/03/2020,24,F,Pimpri-Chinchwad,Pune,Maharashtra,India,H,20/03/2020,Brother of P157
+208,N,1209,114,180,95,90.2,L,Cholestrol,20/03/2020,38,M,Mumbai,Mumbai,Maharashtra,India,H,20/03/2020,Travelled from Turkey
+209,P,1210,115,180,95,90.2,L,fever,20/03/2020,20,M,Mumbai,Mumbai,Maharashtra,India,H,20/03/2020,Travelled from UK
+210,N,1211,116,180,95,90.2,L,Cholestrol,20/03/2020,22,F,Ahmedabad,Ahmedabad,Gujarat,India,H,20/03/2020,Travelled from US
+211,P,1212,117,180,95,90.2,L,fever,20/03/2020,34,M,Ahmedabad,Ahmedabad,Gujarat,India,R,20/03/2020,Travelled from Finland via Delhi
+212,N,1213,118,180,95,90.2,L,Cholestrol,20/03/2020,47,M,Vadodara,Vadodara,Gujarat,India,H,20/03/2020,Travelled from Spain via Mumbai
+213,P,1214,119,180,95,90.2,L,fever,20/03/2020,37,F,Lucknow,Lucknow,Uttar Pradesh,India,H,20/03/2020,"Relative of P142, junior resident at KGMU"
+214,N,1215,120,180,95,90.2,L,Cholestrol,20/03/2020,35,M,Lucknow,Lucknow,Uttar Pradesh,India,H,20/03/2020,"Relative of P142, junior resident at KGMU"
+215,N,1216,121,180,95,90.2,L,fever,20/03/2020,20,M,Lucknow,Lucknow,Uttar Pradesh,India,H,20/03/2020,"Relative of P142, junior resident at KGMU"
+216,P,1217,122,60,95,90.2,L,Cholestrol,20/03/2020,41,F,Lucknow,Lucknow,Uttar Pradesh,India,H,20/03/2020,Travelled from UK
+217,N,1218,123,60,95,90.2,L,fever,20/03/2020,41,M,Jaipur,Jaipur,Rajasthan,India,H,20/03/2020,Details awaited
+218,P,1219,124,60,95,90.2,L,Cholestrol,20/03/2020,41,M,Bhilwara,Bhilwara,Rajasthan,India,H,20/03/2020,"Doctor, Had a guest who returned from Saudi Arabia"
+219,N,1220,125,60,95,90.2,L,fever,20/03/2020,41,F,Bhilwara,Bhilwara,Rajasthan,India,H,20/03/2020,Doctor
+220,P,1221,126,60,95,90.2,L,Cholestrol,20/03/2020,18,M,Hyderabad,Hyderabad,Telangana,India,H,20/03/2020,Travelled from London
+221,N,1222,127,60,95,90.2,L,fever,20/03/2020,18,M,Jaipur,Jaipur,Rajasthan,India,H,20/03/2020,Details awaited
+222,P,1223,128,60,95,90.2,L,Cholestrol,20/03/2020,69,F,Vadodara,Vadodara,Gujarat,India,H,20/03/2020,Travelled from Sri Lanka
+223,N,1224,129,60,95,90.2,L,fever,20/03/2020,27,M,Ahmedabad,Ahmedabad,Gujarat,India,H,20/03/2020,Travelled from UK
+224,N,1225,130,60,95,90.2,L,Cholestrol,20/03/2020,27,M,Chandigarh,Chandigarh,Chandigarh,India,H,20/03/2020,Mother of P172
+225,P,1226,131,60,95,90.2,L,fever,20/03/2020,27,F,Chandigarh,Chandigarh,Chandigarh,India,H,20/03/2020,Brother of P172
+226,N,1227,132,60,95,90.2,L,Cholestrol,20/03/2020,27,M,Chandigarh,Chandigarh,Chandigarh,India,H,20/03/2020,Cook of P172
+227,P,1228,133,60,95,90.2,L,fever,20/03/2020,26,M,Chandigarh,Chandigarh,Chandigarh,India,H,20/03/2020,"Travelled from UK, Sector 19; "
+228,N,1229,134,60,95,90.2,L,Cholestrol,20/03/2020,26,F,Kochi,Ernakulam,Kerala,United Kingdom,R,07/04/2020,Travelled from Dubai. UK Tourist
+229,P,1230,135,60,95,90.2,L,fever,20/03/2020,26,M,Kochi,Ernakulam,Kerala,United Kingdom,R,28/03/2020,Travelled from Dubai. UK Tourist
+230,N,1231,136,60,95,90.2,L,Cholestrol,20/03/2020,26,M,Kochi,Ernakulam,Kerala,United Kingdom,R,28/03/2020,Travelled from Dubai. UK Tourist
+231,P,1232,137,60,95,90.2,L,fever,20/03/2020,26,F,Kochi,Ernakulam,Kerala,United Kingdom,H,20/03/2020,Travelled from Dubai. UK Tourist
+232,N,1233,138,60,95,90.2,L,Cholestrol,20/03/2020,26,M,Kochi,Ernakulam,Kerala,United Kingdom,H,20/03/2020,Travelled from Dubai. UK Tourist
+233,N,1234,139,60,95,90.2,L,fever,20/03/2020,26,M,Bhilwara,Bhilwara,Rajasthan,India,H,20/03/2020,Bangar Hospital Doctor
+234,P,1235,140,60,95,90.2,L,Cholestrol,20/03/2020,26,F,Bhilwara,Bhilwara,Rajasthan,India,H,20/03/2020,Bangar Hospital Compounder
+235,N,1236,141,60,95,90.2,L,fever,20/03/2020,26,M,Bhilwara,Bhilwara,Rajasthan,India,H,20/03/2020,Bangar Hospital Compounder
+236,P,1237,142,60,95,90.2,L,Cholestrol,20/03/2020,26,M,Bhilwara,Bhilwara,Rajasthan,India,H,20/03/2020,Bangar Hospital Compounder
+237,N,1238,143,60,95,90.2,L,fever,20/03/2020,52,F,Faridabad,Faridabad,Haryana,India,H,20/03/2020,Travelled from Spain
+238,P,1239,144,60,95,90.2,L,Cholestrol,20/03/2020,21,M,Panipat,Panipat,Haryana,India,H,20/03/2020,Travelled from UK
+239,N,1240,145,60,95,90.2,L,fever,20/03/2020,52,M,Kasaragod,Kasaragod,Kerala,India,H,20/03/2020,Travelled from Sharjah 
+240,P,1241,146,60,95,90.2,L,Cholestrol,20/03/2020,27,F,Kasaragod,Kasaragod,Kerala,India,H,20/03/2020,Travelled from Dubai via Mangalore
+241,N,1242,147,60,95,90.2,L,fever,20/03/2020,27,M,Kasaragod,Kasaragod,Kerala,India,H,20/03/2020,Travelled in a car with P117
+242,N,1243,148,60,95,90.2,L,Cholestrol,20/03/2020,27,M,Kasaragod,Kasaragod,Kerala,India,H,20/03/2020,Relative of P117
+243,P,1244,149,60,95,90.2,L,fever,20/03/2020,27,F,Kasaragod,Kasaragod,Kerala,India,H,20/03/2020,Relative of P117
+244,N,1245,150,60,95,90.2,L,Cholestrol,20/03/2020,27,M,Kasaragod,Kasaragod,Kerala,India,H,20/03/2020,Relative of P117
+245,P,1246,151,60,95,90.2,L,fever,20/03/2020,27,M,Kochi,Ernakulam,Kerala,India,R,07/04/2020,Travelled from UK. Palakkad native
+246,N,1247,152,60,95,90.2,L,Cholestrol,20/03/2020,27,F,Kangra,Kangra,Himachal Pradesh,India,H,20/03/2020,Travelled from Dubai
+247,P,1248,153,60,95,90.2,L,fever,20/03/2020,32,M,Kangra,Kangra,Himachal Pradesh,India,R,27/03/2020,Travelled from Singapore
+248,N,1249,154,60,95,90.2,L,Cholestrol,20/03/2020,59,M,Jabalpur,Jabalpur,Madhya Pradesh,India,H,20/03/2020,Travelled from Dubai and Thailand(Family)
+249,P,1250,155,60,95,90.2,L,fever,20/03/2020,45,F,Jabalpur,Jabalpur,Madhya Pradesh,India,H,20/03/2020,Travelled from Dubai and Thailand(Family)
+250,N,1251,156,60,95,90.2,L,Cholestrol,20/03/2020,22,M,Jabalpur,Jabalpur,Madhya Pradesh,India,H,20/03/2020,Travelled from Dubai and Thailand(Family)
+251,N,1252,157,60,95,90.2,L,fever,20/03/2020,24,M,Jabalpur,Jabalpur,Madhya Pradesh,India,H,20/03/2020,Travelled from Germany and Switzerland
+252,P,1253,158,60,95,90.2,L,Cholestrol,20/03/2020,27,F,Karimnagar,Karimnagar,Telangana,Indonesia,H,20/03/2020,Indonesian citizen
+253,N,1254,159,60,95,90.2,L,fever,20/03/2020,60,M,Karimnagar,Karimnagar,Telangana,Indonesia,H,20/03/2020,Indonesian citizen
+254,P,1255,160,60,95,90.2,L,Cholestrol,20/03/2020,32,M,West Delhi,West Delhi,Delhi,India,H,20/03/2020,Travelled from France
+255,N,1256,161,60,95,90.2,L,fever,20/03/2020,32,F,Karimnagar,West Delhi,Delhi,India,H,20/03/2020,Details awaited
+256,P,1257,162,60,95,90.2,L,Cholestrol,20/03/2020,32,M,West Delhi,West Delhi,Delhi,India,H,20/03/2020,Details awaited
+257,N,1258,163,60,95,90.2,H,fever,20/03/2020,20,M,Karimnagar,Pune,Maharashtra,India,H,20/03/2020,Travelled from UK
+258,P,1259,164,60,95,90.2,H,Cholestrol,21/03/2020,20,F,West Delhi,Mumbai,Maharashtra,India,H,19/03/2020,
+259,N,1260,165,60,95,90.2,H,fever,21/03/2020,53,M,Kalyan-Dombivali,Thane,Maharashtra,India,H,20/03/2020,Travelled from Dubai
+260,N,1261,166,60,95,90.2,H,Cholestrol,21/03/2020,23,M,Habra,North 24 Parganas,West Bengal,India,R,21/03/2020,Travelled from UK via Mumbai
+261,P,1262,167,60,95,90.2,H,fever,21/03/2020,23,F,Bhilwara,Bhilwara,Rajasthan,India,H,21/03/2020,Staff of Private Hospital
+262,N,1263,168,60,95,90.2,H,Cholestrol,21/03/2020,23,M,Bhilwara,Bhilwara,Rajasthan,India,H,21/03/2020,Staff of Private Hospital
+263,P,1264,169,60,80,90.2,H,fever,21/03/2020,23,M,Bhilwara,Bhilwara,Rajasthan,India,H,21/03/2020,Staff of Private Hospital
+264,N,1265,170,60,80,90.2,H,Cholestrol,21/03/2020,23,F,Bhilwara,Bhilwara,Rajasthan,India,H,21/03/2020,Staff of Private Hospital
+265,P,1266,171,60,80,90.2,H,fever,21/03/2020,23,M,Bhilwara,Bhilwara,Rajasthan,India,H,21/03/2020,Staff of Private Hospital
+266,N,1267,172,60,80,90.2,H,Cholestrol,21/03/2020,23,M,Bhilwara,Bhilwara,Rajasthan,India,H,21/03/2020,Details awaited
+267,P,1268,173,60,80,90.2,H,fever,21/03/2020,42,F,Mohali,S.A.S. Nagar,Punjab,India,H,21/03/2020,Travelled from UK
+268,N,1269,174,60,80,90.2,H,Cholestrol,21/03/2020,74,M,Mohali,S.A.S. Nagar,Punjab,India,H,21/03/2020,Sister of P201
+269,N,1270,175,60,80,90.2,H,fever,21/03/2020,28,M,Mohali,S.A.S. Nagar,Punjab,India,H,21/03/2020,"Employee of P172, Accompanied P224 & Driver"
+270,P,1271,176,60,80,90.2,H,Cholestrol,21/03/2020,59,F,Vadodara,Vadodara,Gujarat,India,H,21/03/2020,"Travelled from Sri Lanka, same group as P222"
+271,N,1272,177,60,80,90.2,H,fever,21/03/2020,63,M,Mumbai,Mumbai,Maharashtra,India,D,22/03/2020,"Travelled from UK, had a chronic history of diabetes, high blood pressure, and ischemic heart disease."
+272,P,1273,178,60,80,90.2,H,Cholestrol,21/03/2020,63,M,Mumbai,Mumbai,Maharashtra,India,H,21/03/2020,Details awaited
+273,N,1274,179,60,80,90.2,H,fever,21/03/2020,41,F,Pune,Pune,Maharashtra,India,H,21/03/2020,Admitted on Swine Flu suspicion; COVID19 confirmed
+274,P,1275,180,60,80,90.2,H,Cholestrol,21/03/2020,41,M,Pune,Pune,Maharashtra,India,H,21/03/2020,Travelled from Ireland
+275,N,1276,181,60,80,90.2,H,fever,21/03/2020,41,M,Mumbai,Mumbai,Maharashtra,India,H,21/03/2020,Details awaited
+276,P,1277,182,60,80,90.2,H,Cholestrol,21/03/2020,41,F,Mumbai,Mumbai,Maharashtra,India,H,21/03/2020,Details awaited
+277,N,1278,183,60,80,90.2,H,fever,21/03/2020,41,M,Mumbai,Mumbai,Maharashtra,India,H,21/03/2020,Details awaited
+278,N,1279,184,60,80,90.2,H,Cholestrol,21/03/2020,41,M,Mumbai,Mumbai,Maharashtra,India,H,21/03/2020,Details awaited
+279,P,1280,185,60,80,90.2,H,fever,21/03/2020,41,F,Mumbai,Mumbai,Maharashtra,India,H,21/03/2020,"Airport Official, Details awaited"
+280,N,1281,186,60,80,90.2,H,Cholestrol,21/03/2020,24,M,Mumbai,Mumbai,Delhi,India,H,21/03/2020,Daughter of P171
+281,P,1282,187,60,80,90.2,H,fever,21/03/2020,26,M,Mumbai,Mumbai,Delhi,India,H,21/03/2020,Daughter of P171
+282,N,1283,188,60,80,90.2,H,Cholestrol,21/03/2020,26,F,Mumbai,Mumbai,Delhi,India,H,21/03/2020,Details awaited; MoHFW reported 26 on 21 Mar AM
+283,P,1284,189,60,80,90.2,H,fever,21/03/2020,26,M,Mumbai,Mumbai,Delhi,India,H,21/03/2020,Details awaited; MoHFW reported 26 on 21 Mar AM
+284,N,1285,190,60,80,90.2,H,Cholestrol,21/03/2020,26,M,Mumbai,Mumbai,Delhi,India,H,21/03/2020,Details awaited; MoHFW reported 26 on 21 Mar AM
+285,P,1286,191,60,80,90.2,H,fever,21/03/2020,26,F,Mumbai,Mumbai,Delhi,India,H,21/03/2020,Details awaited; MoHFW reported 26 on 21 Mar AM
+286,N,1287,192,60,80,90.2,H,Cholestrol,21/03/2020,26,M,Gowribidanur,Chikkaballapura,Karnataka,India,R,19/04/2020,"Travelled from Mecca, Saudi Arabia"
+287,N,1288,193,60,80,90.2,H,fever,21/03/2020,32,M,Noida,Gautam Buddha Nagar,Uttar Pradesh,India,H,21/03/2020,"Supertech Capetown, Sector 74, NOIDA"
+288,P,1289,194,60,80,90.2,H,Cholestrol,21/03/2020,38,F,Panchkula,Panchkula,Haryana,India,H,21/03/2020,Worked at a beauty salon that Chandigarh’s first coronavirus patient visited
+289,N,1290,195,60,80,90.2,H,fever,21/03/2020,38,M,Leh,Leh,Ladakh,India,H,21/03/2020,Relative of Leh Patient (ID Unknown)
+290,P,1291,196,60,80,90.2,H,Cholestrol,21/03/2020,38,M,Leh,Leh,Ladakh,India,H,21/03/2020,Relative of Leh Patient (ID Unknown)
+291,N,1292,197,60,80,90.2,H,fever,21/03/2020,38,F,Sankoo Valley,Kargil,Ladakh,India,H,21/03/2020,Relative of P132
+292,P,1293,198,60,80,90.2,H,Cholestrol,21/03/2020,38,M,Ahmedabad,Ahmedabad,Gujarat,India,H,21/03/2020,Details awaited
+293,N,1294,199,60,80,90.2,H,fever,21/03/2020,38,M,Ahmedabad,Ahmedabad,Gujarat,India,H,21/03/2020,Details awaited
+294,P,1295,200,60,80,90.2,H,Cholestrol,21/03/2020,38,F,Surat,Surat,Gujarat,India,H,21/03/2020,"No Travel History, Details awaited"
+295,N,1296,201,60,80,90.2,H,fever,21/03/2020,67,M,Surat,Surat,Gujarat,India,D,22/03/2020,Travelled to Delhi & Jaipur
+296,N,1297,202,60,80,90.2,H,Cholestrol,21/03/2020,26,M,Gandhinagar,Gandhinagar,Gujarat,India,H,21/03/2020,Travelled from Dubai
+297,P,1298,203,60,80,90.2,H,fever,21/03/2020,53,F,Bengaluru,Bengaluru Urban,Karnataka,India,R,12/04/2020,Domestic worker of P137
+298,N,1299,204,60,80,90.2,H,Cholestrol,21/03/2020,39,M,Bengaluru,Bengaluru Urban,Karnataka,India,H,21/03/2020,Travelled from Netherlands Flight No. KL 1227
+299,P,1300,205,60,80,90.2,H,fever,21/03/2020,19,M,Moradabad,Moradabad,Uttar Pradesh,India,H,21/03/2020,Travelled from France
+300,N,1301,206,60,80,90.2,H,Cholestrol,21/03/2020,35,F,Hyderabad,Hyderabad,Telangana,India,H,21/03/2020,Contact of P191
+301,P,1302,207,60,80,90.2,H,fever,21/03/2020,33,M,Hyderabad,Hyderabad,Telangana,India,H,21/03/2020,"Travelled from Dubai, Beliseema MSE Cruise Emp; "
+302,N,1303,208,60,80,90.2,H,Cholestrol,21/03/2020,69,M,Perundurai,Erode,Tamil Nadu,Thailand,H,21/03/2020,Travelled from Phuket to New Delhi to Erode railway station
+303,P,1304,209,60,80,90.2,H,fever,21/03/2020,75,F,Perundurai,Erode,Tamil Nadu,Thailand,H,21/03/2020,Travelled from Phuket to New Delhi to Erode railway station on 11.03.2020
+304,N,1305,210,60,80,90.2,H,Cholestrol,21/03/2020,65,M,Chennai,Chennai,Tamil Nadu,India,H,21/03/2020,"Travelled from New Zealand, Singapore, Chennai airport on 15.03.2020"
+305,N,1306,211,60,80,90.2,H,fever,21/03/2020,35,M,Nawanshahr,Shahid Bhagat Singh Nagar,Punjab,India,H,21/03/2020,Son of P182
+306,P,1307,212,60,80,90.2,H,Cholestrol,21/03/2020,34,F,Nawanshahr,Shahid Bhagat Singh Nagar,Punjab,India,H,21/03/2020,Son of P182
+307,N,1308,213,60,80,90.2,H,fever,21/03/2020,45,M,Nawanshahr,Shahid Bhagat Singh Nagar,Punjab,India,H,21/03/2020,Son of P182
+308,P,1309,214,60,80,90.2,H,Cholestrol,21/03/2020,40,M,Nawanshahr,Shahid Bhagat Singh Nagar,Punjab,India,H,21/03/2020,Daughter in Law of P182
+309,N,1310,215,60,80,90.2,H,fever,21/03/2020,17,F,Nawanshahr,Shahid Bhagat Singh Nagar,Punjab,India,H,21/03/2020,Grand daughter of P182
+310,P,1311,216,60,80,90.2,H,Cholestrol,21/03/2020,36,M,Nawanshahr,Shahid Bhagat Singh Nagar,Punjab,India,H,21/03/2020,Daughter of P182
+311,N,1312,217,60,80,90.2,H,fever,21/03/2020,36,M,Yavatmal,Yavatmal,Maharashtra,India,H,21/03/2020,Travelled from Congo
+312,P,1313,218,60,80,90.2,H,Cholestrol,21/03/2020,36,F,Garhshankar,Hoshiarpur,Punjab,India,H,21/03/2020,In contact with P182
+313,N,1314,219,60,80,90.2,H,fever,21/03/2020,36,M,Nawanshahr,Kannur,Kerala,India,R,31/03/2020,Travelled from Sharjah IX 746
+314,N,1315,220,60,80,90.2,L,Cholestrol,21/03/2020,36,M,Yavatmal,Kannur,Kerala,India,R,31/03/2020,"Travelled from Dubai, Air India Express IX 344"
+315,P,1316,221,60,80,90.2,H,fever,21/03/2020,36,F,Garhshankar,Kannur,Kerala,India,R,04/04/2020,"Travelled from Dubai, SG54"
+316,N,1317,222,60,80,90.2,L,Cholestrol,21/03/2020,36,M,Nawanshahr,Kasaragod,Kerala,India,H,21/03/2020,"Landed in Mangalore airport, had been to Kasturba Medical College Attavar"
+317,P,1318,223,60,80,90.2,H,fever,21/03/2020,36,M,Yavatmal,Kasaragod,Kerala,India,H,21/03/2020,Travelled from Dubai
+318,N,1319,224,60,80,90.2,L,Cholestrol,21/03/2020,36,F,Garhshankar,Kasaragod,Kerala,India,H,21/03/2020,Travelled from Dubai
+319,P,1320,225,60,80,90.2,H,fever,21/03/2020,36,M,Nawanshahr,Kasaragod,Kerala,India,H,21/03/2020,Travelled from Dubai
+320,N,1321,226,60,80,90.2,L,Cholestrol,21/03/2020,36,M,Yavatmal,Kasaragod,Kerala,India,H,21/03/2020,Travelled from Dubai
+321,P,1322,227,60,80,90.2,H,fever,21/03/2020,36,F,Garhshankar,Kasaragod,Kerala,India,R,03/04/2020,Travelled from Dubai
+322,N,1323,228,60,80,90.2,L,Cholestrol,21/03/2020,23,M,Nawanshahr,Ernakulam,Kerala,India,H,21/03/2020,Details awaited; Travelled from Middle East
+323,N,1324,229,60,80,90.2,H,fever,21/03/2020,23,M,Yavatmal,Ernakulam,Kerala,India,H,21/03/2020,Details awaited; Travelled from Middle East
+324,P,1325,230,60,80,90.2,L,Cholestrol,21/03/2020,23,F,Garhshankar,Ernakulam,Kerala,India,H,21/03/2020,Details awaited; Travelled from Middle East
+325,N,1326,231,60,80,90.2,H,fever,21/03/2020,21,M,Bengaluru,Bengaluru Urban,Karnataka,India,H,21/03/2020,Travelled from UK
+326,P,1327,232,60,80,90.2,L,Cholestrol,21/03/2020,35,M,Mysuru,Mysuru,Karnataka,India,R,07/04/2020,Travelled from Dubai via Bengaluru
+327,N,1328,233,60,80,90.2,H,fever,21/03/2020,23,F,Sonepat,Sonipat,Haryana,India,H,21/03/2020,Travelled from UK
+328,P,1329,234,60,80,90.2,L,Cholestrol,21/03/2020,57,M,Dum Dum,Kolkata,West Bengal,India,D,23/03/2020,"No international travel history, has travelled to  Bilaspur by train"
+329,N,1330,235,60,80,90.2,H,fever,21/03/2020,57,M,Bhiwara,Bhilwara,Rajasthan,India,H,21/03/2020,Details awaited
+330,P,1331,236,60,80,91.2,L,Cholestrol,21/03/2020,59,F,Lakhapt,Kutch,Gujarat,India,H,21/03/2020,Travelled from Saudi Arabia
+331,N,1332,237,60,80,91.3,H,fever,21/03/2020,22,M,Rajahmundry,East Godavari,Andhra Pradesh,India,H,21/03/2020,Travelled from UK
+332,N,1333,238,60,80,91.4,L,Cholestrol,21/03/2020,24,M,Vijayawada,Krishna,Andhra Pradesh,India,H,21/03/2020,Travelled from Paris
+333,P,1334,239,60,80,91.5,H,fever,21/03/2020,24,F,Vijayawada,,Delhi,India,H,21/03/2020,Details awaited
+334,N,1335,101,60,80,91.6,L,Cholestrol,21/03/2020,24,M,Greater Noida,Gautam Buddha Nagar,Uttar Pradesh,India,H,21/03/2020,Travelled from Dubai
+335,P,1336,102,60,80,91.7,H,fever,21/03/2020,24,M,Varanasi,Varanasi,Uttar Pradesh,India,H,21/03/2020,Travelled from Dubai on March 17 and went to Varanasi on March 18 in train
+336,N,1337,103,60,80,91.8,L,Cholestrol,22/03/2020,24,F,Chandigarh,Chandigarh,Chandigarh,India,H,22/03/2020,"Scondary contact of Chandigarh's first positive case, has tested positive"
+337,P,1338,104,60,80,91.9,H,fever,22/03/2020,24,M,Hosayellapur,Dharwad,Karnataka,India,R,06/04/2020,Travelled from Dubai via Goa
+338,N,1339,105,200,80,92,L,Cholestrol,22/03/2020,32,M,Mumbai Suburb,Mumbai,Maharashtra,India,H,22/03/2020,"Travelled from USA, Admitted to Kasturba Hosp."
+339,P,1340,106,200,80,92.1,H,fever,22/03/2020,30,F,Mumbai Suburb,Mumbai,Maharashtra,India,H,22/03/2020,"Travelled from USA, Admitted to Kasturba Hosp."
+340,N,1341,107,200,80,92.2,L,Cholestrol,22/03/2020,21,M,Mumbai Suburb,Mumbai,Maharashtra,India,H,22/03/2020,"Travelled from Edenburg, South Africa, Admitted to Kasturba Hosp."
+341,N,1342,108,200,80,92.3,H,fever,22/03/2020,60,M,Mumbai Suburb,Mumbai,Maharashtra,India,H,22/03/2020,"Travelled from Saudi Arabia, Admitted to Kasturba Hosp."
+342,P,1343,109,200,80,92.4,L,Cholestrol,22/03/2020,64,F,Mumbai City,Mumbai,Maharashtra,India,H,22/03/2020,Contact transmission
+343,N,1344,110,200,80,92.5,H,fever,22/03/2020,35,M,Navi Mumbai,Thane,Maharashtra,India,H,22/03/2020,"Travelled from Istanbul, Turkey, Admitted to Kasturba Hosp."
+344,P,1345,111,200,80,92.6,L,Cholestrol,22/03/2020,35,M,Pune,Pune,Maharashtra,India,H,22/03/2020,"Contact transmission, details awaited"
+345,N,1346,112,200,80,92.7,H,fever,22/03/2020,35,F,Pune,Pune,Maharashtra,India,H,22/03/2020,"Contact transmission, details awaited"
+346,P,1347,113,200,80,92.8,L,Cholestrol,22/03/2020,35,M,Pune,Pune,Maharashtra,India,H,22/03/2020,"Contact transmission, details awaited"
+347,N,1348,114,200,80,92.9,H,fever,22/03/2020,35,M,Pune,Pune,Maharashtra,India,H,22/03/2020,"Contact transmission, details awaited"
+348,P,1349,115,200,80,93,L,Cholestrol,22/03/2020,25,F,Coimbatore,Coimbatore,Tamil Nadu,India,H,22/03/2020,"Travelled from Spain, Delhi, Bengaluru, Coimbatore on 15-03-2020"
+349,N,1350,116,200,80,93.1,H,fever,22/03/2020,38,M,Munger,Munger,Bihar,India,D,22/03/2020,"Travelled from Qatar, Kolkata. He was from Munger. He died yesterday at AIIMS in Patna; had Travelled from Kolkata two days back.Foreign "
+350,N,1351,117,200,80,93.2,L,Cholestrol,22/03/2020,38,M,Patna,Patna,Bihar,India,H,22/03/2020,Travelled from UK. Patient has recently 
+351,P,1352,118,200,80,93.3,H,fever,22/03/2020,38,F,Hyderabad,Hyderabad,Telangana,India,H,22/03/2020,"Travelled from London via Dubai; Resident of Guntur, AP"
+352,N,1353,119,200,80,93.4,L,Cholestrol,22/03/2020,38,M,Ahmedabad,Ahmedabad,Gujarat,India,H,22/03/2020,Details awaited
+353,P,1354,120,200,80,93.5,H,fever,22/03/2020,38,M,Ahmedabad,Ahmedabad,Gujarat,India,H,22/03/2020,Details awaited
+354,N,1355,121,200,80,93.6,L,Cholestrol,22/03/2020,38,F,Ahmedabad,Ahmedabad,Gujarat,India,H,22/03/2020,Details awaited
+355,P,1356,122,200,80,93.7,H,fever,22/03/2020,38,M,Gandhinagar,Gandhinagar,Gujarat,India,H,22/03/2020,"Grandmother of P295, Travelled from Dubai"
+356,N,1357,123,200,80,93.8,L,Cholestrol,22/03/2020,38,M,Ahmedabad,Amritsar,Punjab,India,H,22/03/2020,Travelled from UK via Delhi
+357,P,1358,124,200,80,93.9,H,fever,22/03/2020,38,F,Gandhinagar,Shahid Bhagat Singh Nagar,Punjab,India,H,22/03/2020,Travelled from Germany via Italy
+358,N,1359,125,200,80,94,L,Cholestrol,22/03/2020,38,M,Ahmedabad,Shahid Bhagat Singh Nagar,Punjab,India,H,22/03/2020,Travelled from Germany via Italy
+359,N,1360,126,200,80,94.1,H,fever,22/03/2020,38,M,Gandhinagar,Shahid Bhagat Singh Nagar,Punjab,India,H,22/03/2020,"Close contact of Patient (Patient Unknown, likely P182)"
+360,P,1361,127,200,80,94.2,L,Cholestrol,22/03/2020,38,F,Ahmedabad,Shahid Bhagat Singh Nagar,Punjab,India,H,22/03/2020,"Close contact of Patient (Patient Unknown, likely P182)"
+361,N,1362,128,200,80,94.3,H,fever,22/03/2020,38,M,Gandhinagar,Shahid Bhagat Singh Nagar,Punjab,India,H,22/03/2020,"Close contact of Patient (Patient Unknown, likely P182)"
+362,P,1363,129,200,80,94.4,L,Cholestrol,22/03/2020,38,M,Ahmedabad,Shahid Bhagat Singh Nagar,Punjab,India,H,22/03/2020,"Close contact of Patient (Patient Unknown, likely P182)"
+363,N,1364,130,200,80,94.5,H,fever,22/03/2020,26,F,Bhopal,Bhopal,Madhya Pradesh,India,H,22/03/2020,Travelled from UK via Delhi (by Shatabdi Express)
+364,P,1365,131,200,80,94.6,L,Cholestrol,22/03/2020,58,M,Bhopal,Kasaragod,Kerala,India,H,22/03/2020,Travelled from Dubai AI 938 admitted in Kozhikode  Medical College
+365,N,1366,132,200,80,98,H,fever,22/03/2020,27,M,Bhopal,Kasaragod,Kerala,India,H,22/03/2020,Travelled from Middle East
+366,P,1367,133,200,80,98,L,Cholestrol,22/03/2020,32,F,Bhopal,Kasaragod,Kerala,India,H,22/03/2020,Travelled from Middle East
+367,N,1368,134,200,80,98,H,fever,22/03/2020,41,M,Bhopal,Kasaragod,Kerala,India,H,22/03/2020,Travelled from Middle East
+368,N,1369,135,200,80,98,L,Cholestrol,22/03/2020,33,M,Bhopal,Kasaragod,Kerala,India,H,22/03/2020,Travelled from Middle East
+369,P,1370,136,200,80,98,H,fever,22/03/2020,26,F,Hyderabad,Hyderabad,Telangana,India,H,22/03/2020,"Travelled from Sweden; Resident of Rajolu, AP"
+370,N,1371,137,200,80,98,L,Cholestrol,22/03/2020,34,M,Hyderabad,Hyderabad,Telangana,India,H,22/03/2020,Travelled from Sweden
+371,P,1372,138,200,80,98,H,fever,22/03/2020,23,M,Kothagudem,Bhadradri Kothagudem,Telangana,India,H,22/03/2020,Travelled from London
+372,N,1373,139,200,80,98,L,Cholestrol,22/03/2020,23,F,Kukatpally,Hyderabad,Telangana,India,H,22/03/2020,Travelled from London via Doha
+373,P,1374,140,200,80,98,H,fever,22/03/2020,50,M,Hyderabad,Hyderabad,Telangana,India,H,22/03/2020,Travelled from Dubai
+374,N,1375,141,200,80,98,L,Cholestrol,22/03/2020,22,M,Bhatkal,Uttara Kannada,Karnataka,India,R,06/04/2020,Travelled from Dubai on Spicejet SG60 (21C) 
+375,P,1376,142,200,80,98,H,fever,22/03/2020,22,F,Hyderabad,Kannur,Kerala,India,H,22/03/2020,Travelled from Dubai
+376,N,1377,143,200,80,98,L,Cholestrol,22/03/2020,22,M,Bhatkal,Kannur,Kerala,India,H,22/03/2020,Travelled from Dubai
+377,N,1378,144,200,80,98,H,fever,22/03/2020,32,M,Vengara,Malappuram,Kerala,India,H,22/03/2020,Travelled from Abhudhabi via Air India  IX 348 
+378,P,1379,145,200,80,98,L,Cholestrol,22/03/2020,24,F,Kadalundi,Malappuram,Kerala,India,H,22/03/2020,Travelled from Dubai via Air Arabia G9  425
+379,N,1380,146,200,80,98,H,fever,22/03/2020,41,M,Koduvally,Kozhikode,Kerala,India,H,22/03/2020,"Travelled from Abu Dhabi, EY 250"
+380,P,1381,147,200,80,98,L,Cholestrol,22/03/2020,27,M,Kadalundi,Kozhikode,Kerala,India,R,31/03/2020,"Travelled from Dubai AI 938, Taken to hospital directly from the airport."
+381,N,1382,148,200,80,93,H,fever,22/03/2020,69,F,Koduvally,Ernakulam,Kerala,India,D,28/03/2020,Travelled from Dubai
+382,P,1383,149,200,80,93,L,Cholestrol,22/03/2020,21,M,Kadalundi,Ernakulam,Kerala,India,H,22/03/2020,Travelled from United Kingdom
+383,N,1384,99,200,80,93,H,fever,22/03/2020,64,M,Gowribidanur,Chikkaballapura,Karnataka,India,R,11/04/2020,"Travelled from Mecca, Saudi Arabia along with Son(P285), via Hyderabad to Hindupur by train and to Gowribidanur by bus"
+384,P,1385,99,200,80,93,L,Cholestrol,22/03/2020,36,F,Bengaluru,Bengaluru Urban,Karnataka,India,R,22/03/2020,Travelled from Switzerland and France
+385,N,1386,99,200,80,93,H,fever,22/03/2020,27,M,Bengaluru,Bengaluru Urban,Karnataka,India,R,06/04/2020,Travelled from Germany
+386,N,1387,99,200,80,93,L,Cholestrol,22/03/2020,51,M,Bengaluru,Bengaluru Urban,Karnataka,India,R,22/03/2020,Travelled from London
+387,P,1388,99,200,80,93,H,fever,22/03/2020,51,F,Bengaluru,Kannur,Kerala,India,H,22/03/2020,Travelled from Dubai
+388,N,1389,99,200,80,93,L,Cholestrol,22/03/2020,51,M,Bengaluru,Kannur,Kerala,India,H,22/03/2020,Travelled from Dubai
+389,P,1390,99,200,80,93,H,fever,22/03/2020,51,M,Bengaluru,Shahid Bhagat Singh Nagar,Punjab,India,H,22/03/2020,"Close contact of Patient (Patient Unknown, likely P182)"
+390,N,1391,99,200,80,93,L,Cholestrol,22/03/2020,37,F,Greater Noida,Gautam Buddha Nagar,Uttar Pradesh,India,H,22/03/2020,Travelled from Denmark
+391,P,1392,99,200,80,93,H,fever,22/03/2020,62,M,Greater Noida,Gautam Buddha Nagar,Uttar Pradesh,India,H,22/03/2020,"Mother of P389, showed symptoms first -- tested on Mar 19"
+392,N,1393,99,200,80,93,L,Cholestrol,22/03/2020,48,M,Kolkata,Kolkata,West Bengal,India,R,22/03/2020,Father of P200
+393,P,1394,99,200,80,93,H,fever,22/03/2020,47,M,Kolkata,Kolkata,West Bengal,India,H,22/03/2020,Mother of P200
+394,N,1395,99,200,80,93,L,Cholestrol,22/03/2020,20,M,Kolkata,Kolkata,West Bengal,India,H,22/03/2020,Domestic worker of P200
+395,N,1396,99,200,80,93,H,fever,22/03/2020,53,M,Jabalpur,Jabalpur,Madhya Pradesh,India,H,22/03/2020,Come in contact with previous case of couple and their teenage daughter
+396,P,1397,99,200,80,93,L,Cholestrol,22/03/2020,64,M,Chennai,Chennai,Tamil Nadu,India,H,22/03/2020,Travelled from California via Singapore to Chennai Airport on 20.03.2020
+397,N,1398,99,200,80,93,H,fever,22/03/2020,43,M,Tirunelveli,Tirunelveli,Tamil Nadu,India,H,22/03/2020,Travelled from Dubai to Madurai airport on 20.03.2020
+398,P,1399,99,200,80,93,L,Cholestrol,22/03/2020,49,M,Visakhapatnam,Visakhapatnam,Andhra Pradesh,India,H,22/03/2020,Patient's husband tested positive
+399,N,1400,99,200,80,93,H,fever,22/03/2020,49,M,Tirunelveli,Jodhpur,Rajasthan,India,H,22/03/2020,Details awaited
+400,P,1401,99,200,80,92,L,Cholestrol,22/03/2020,49,M,Visakhapatnam,Pali,Rajasthan,India,H,22/03/2020,Details awaited
+401,N,1402,99,200,80,92,H,fever,22/03/2020,49,M,Tirunelveli,Sikar,Rajasthan,India,H,22/03/2020,Details awaited
+402,P,1403,99,200,80,92,L,Cholestrol,22/03/2020,49,M,Jhunjhunu,Jhunjhunu,Rajasthan,India,H,22/03/2020,Travelled from Dubai
+403,N,1404,99,200,80,92,H,fever,22/03/2020,36,M,Shashtri Nagar,Jodhpur,Rajasthan,India,H,22/03/2020,"Travelled from Turkey, between Mar 8th-17th"
+404,N,1405,101,200,80,92,L,Cholestrol,22/03/2020,36,M,Delhi,,Delhi,India,H,22/03/2020,Doctor who has treated P171
+405,P,1406,101,200,80,92,H,Bp,23/03/2020,36,M,Pune,Pune,Maharashtra,India,H,23/03/2020,Details awaited
+406,N,1407,101,200,80,92,L,Bp,23/03/2020,36,M,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+407,P,1408,101,200,80,92,H,Bp,23/03/2020,36,M,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+408,N,1409,101,200,80,92,L,Bp,23/03/2020,36,M,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+409,P,1410,101,200,80,92,H,Bp,23/03/2020,36,M,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+410,N,1411,101,200,80,92,L,Bp,23/03/2020,36,M,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+411,P,1412,101,200,80,92,H,Bp,23/03/2020,36,M,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+412,N,1413,101,200,80,92,L,Bp,23/03/2020,36,M,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+413,N,1414,101,200,80,92,H,Bp,23/03/2020,36,M,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+414,P,1415,101,200,80,92,L,Bp,23/03/2020,36,M,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+415,N,1416,101,200,80,92,H,Bp,23/03/2020,36,M,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+416,P,1417,101,200,80,92,L,Bp,23/03/2020,36,M,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+417,N,1418,101,200,80,92,H,Bp,23/03/2020,36,M,Thane,Thane,Maharashtra,India,H,23/03/2020,Details awaited
+418,P,1419,101,200,80,92,L,Bp,23/03/2020,36,M,Navi Mumbai,Thane,Maharashtra,India,H,23/03/2020,Details awaited
+419,N,1420,101,200,80,92,H,Bp,23/03/2020,36,M,Vasai-Virar,Palghar,Maharashtra,India,H,23/03/2020,Details awaited
+420,P,1421,101,200,80,92,L,Bp,23/03/2020,46,M,Mysuru,Other State,Karnataka,India,R,12/04/2020,"Travelled from Dubai via Bengaluru, Resident of Kerala, "
+421,N,1422,101,200,80,92,H,Bp,23/03/2020,46,M,Palwal,Palwal,Haryana,India,H,23/03/2020,Travelled from Dubai 
+422,N,1423,101,200,80,92,L,Bp,23/03/2020,45,M,Surat,Surat,Gujarat,India,H,23/03/2020,Local transmission
+423,P,1424,101,200,80,92,H,Bp,23/03/2020,58,M,Ahmedabad,Ahmedabad,Gujarat,India,H,23/03/2020,Travelled from Saudi Arabia
+424,N,1425,101,200,80,92,L,Bp,23/03/2020,57,M,Ahmedabad,Ahmedabad,Gujarat,India,H,23/03/2020,Travelled from Saudi Arabia
+425,P,1426,101,200,80,92,H,Bp,23/03/2020,27,M,Vadodara,Vadodara,Gujarat,India,H,23/03/2020,Daughter of P269
+426,N,1427,101,200,80,92,L,Bp,23/03/2020,29,M,Vadodara,Vadodara,Gujarat,India,H,23/03/2020,Daughter in Law of P269
+427,P,1428,101,200,80,92,H,Bp,23/03/2020,24,M,Ahmedabad,Ahmedabad,Gujarat,India,H,23/03/2020,Travelled from Paris
+428,N,1429,101,200,80,92,L,Bp,23/03/2020,33,M,Ahmedabad,Ahmedabad,Gujarat,India,H,23/03/2020,Local transmission
+429,P,1430,101,200,80,92,H,Bp,23/03/2020,49,M,Gandhinagar,Gandhinagar,Gujarat,India,H,23/03/2020,Father of P295
+430,N,1431,101,200,80,92,L,Bp,23/03/2020,46,M,Vadodara,Vadodara,Gujarat,India,H,23/03/2020,"Travelled from Sri Lanka, Wife of P269"
+431,N,1432,101,200,80,92,H,Bp,23/03/2020,61,M,Ahmedabad,Ahmedabad,Gujarat,India,H,23/03/2020,Travelled from UK
+432,P,1433,101,200,80,92,L,Bp,23/03/2020,85,M,Ahmedabad,Ahmedabad,Gujarat,India,D,25/03/2020,Travelled from Saudi Arabia. She was suffering from many complications.
+433,N,1434,101,200,80,92,H,Bp,23/03/2020,85,M,Delhi,Ahmedabad,Delhi,India,H,23/03/2020,Details awaited
+434,P,1435,101,200,80,92,L,Bp,23/03/2020,85,M,Delhi,Ahmedabad,Delhi,India,H,23/03/2020,Details awaited
+435,N,1436,101,200,80,92,H,Bp,23/03/2020,21,M,Balkampet,Hyderabad,Telangana,India,H,23/03/2020,Travelled from France
+436,P,1437,101,200,80,92,L,Bp,23/03/2020,30,M,Saidabad,Hyderabad,Telangana,India,H,23/03/2020,Travelled from London
+437,N,1438,101,200,80,92,H,Bp,23/03/2020,23,M,Karimnagar,Karimnagar,Telangana,India,H,23/03/2020,"No Travel History, Contact with Indonesian Group"
+438,P,1439,101,200,80,92,L,Bp,23/03/2020,21,M,Chandigarh,Chandigarh,Chandigarh,India,H,23/03/2020,Came in contact with brother of P172
+439,N,1440,101,200,80,92,H,Bp,23/03/2020,20,M,Somajiguda,Hyderabad,Telangana,India,H,23/03/2020,Travelled from New York
+440,N,1441,101,200,80,92,L,Bp,23/03/2020,25,M,Gachibowli,Hyderabad,Telangana,India,H,23/03/2020,Tavelled from London
+441,P,1442,101,200,80,92,H,Bp,23/03/2020,56,M,Kukatpally,Hyderabad,Telangana,India,H,23/03/2020,Travelled from Sri Lanka
+442,N,1443,101,200,80,92,L,Bp,23/03/2020,32,M,Vadodara,Vadodara,Gujarat,India,H,23/03/2020,Son of P269
+443,P,1444,101,200,80,92,H,Bp,23/03/2020,49,M,Vadodara,Dehradun,Uttarakhand,United States of America,H,23/03/2020,"One more person, who is under observation at Dehradun's Doon Hospita"
+444,N,1445,101,200,80,92,L,Bp,23/03/2020,24,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+445,P,1446,101,200,80,92,H,Bp,23/03/2020,30,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+446,N,1447,101,200,80,92,L,Bp,23/03/2020,31,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+447,P,1448,101,200,80,92,H,Bp,23/03/2020,41,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+448,N,1449,101,150,80,92,L,Bp,23/03/2020,34,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+449,N,1450,101,150,80,92,H,Bp,23/03/2020,40,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+450,P,1451,101,150,80,92,L,Bp,23/03/2020,37,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+451,N,1452,101,150,80,92,H,Bp,23/03/2020,47,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+452,P,1453,101,150,80,92,L,Bp,23/03/2020,34,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+453,N,1454,101,150,80,92,H,Bp,23/03/2020,21,M,Kasaragod,Kasaragod,Kerala,India,R,03/04/2020,"Travelled from Dubai, UAE"
+454,P,1455,101,150,80,92,L,Bp,23/03/2020,50,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+455,N,1456,101,150,80,92,H,Bp,23/03/2020,32,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+456,P,1457,101,150,80,92,L,Bp,23/03/2020,27,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+457,N,1458,101,150,80,92,H,Bp,23/03/2020,33,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+458,N,1459,101,150,80,92,L,Bp,23/03/2020,32,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+459,P,1460,101,150,80,92,H,Bp,23/03/2020,27,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+460,N,1461,101,150,80,92,L,Bp,23/03/2020,34,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+461,P,1462,101,150,80,92,H,Bp,23/03/2020,52,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+462,N,1463,101,150,80,92,L,Bp,23/03/2020,26,M,Kasaragod,Kasaragod,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+463,P,1464,101,150,80,92,H,Bp,23/03/2020,26,M,Kasaragod,Kannur,Kerala,India,R,03/04/2020,"Travelled from Dubai, UAE"
+464,N,1465,101,150,80,92,L,Bp,23/03/2020,26,M,Kasaragod,Kannur,Kerala,India,R,03/04/2020,"Travelled from Dubai, UAE"
+465,P,1466,101,150,80,92,H,Bp,23/03/2020,26,M,Kasaragod,Kannur,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+466,N,1467,101,150,80,92,L,Bp,23/03/2020,26,M,Kasaragod,Kannur,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+467,N,1468,101,150,80,92,H,Bp,23/03/2020,26,M,Kasaragod,Kannur,Kerala,India,H,23/03/2020,"Travelled from Dubai, UAE"
+468,P,1469,101,150,80,92,L,Bp,23/03/2020,61,M,Kasaragod,Ernakulam,Kerala,United Kingdom,H,23/03/2020,"Travelled from UK, British tourist among those who visited Munnar, Wife of P229"
+469,N,1470,101,150,80,92,H,Bp,23/03/2020,56,M,Kasaragod,Ernakulam,Kerala,India,H,23/03/2020,"Travelled from Dubai, Emirates flight, been in isolation since landed yesterday at Kochi airport"
+470,P,1471,101,150,80,92,L,Bp,23/03/2020,56,M,Kasaragod,Thrissur,Kerala,India,H,23/03/2020,Travelled from France
+471,N,1472,101,150,80,92,H,Bp,23/03/2020,56,M,Kasaragod,Pathanamthitta,Kerala,India,H,23/03/2020,"Travelled from Qatar, Qatar Airways QR 506"
+472,P,1473,101,150,80,92,L,Bp,23/03/2020,38,M,Bengaluru,Bengaluru Urban,Karnataka,India,R,07/04/2020,Travelled from Dubai
+473,N,1474,101,150,80,92,H,Bp,23/03/2020,41,M,Bengaluru,Bengaluru Urban,Karnataka,India,R,06/04/2020,Travelled from London
+474,P,1475,101,150,80,92,L,Bp,23/03/2020,30,M,Bengaluru,Bengaluru Urban,Karnataka,India,H,23/03/2020,"Wife of P297, KA-P17"
+475,N,1476,101,150,80,92,H,Bp,23/03/2020,24,M,Bengaluru,Bengaluru Urban,Karnataka,India,R,06/04/2020,Travelled from UK and Dubai
+476,N,1477,101,150,80,92,L,Bp,23/03/2020,60,M,Bengaluru,Bengaluru Urban,Karnataka,India,H,23/03/2020,Travelled from Germany
+477,P,1478,101,150,80,92,H,Bp,23/03/2020,22,M,Bengaluru,Other State,Karnataka,India,R,12/04/2020,"Travelled from Dubai, resident of Kannur, Kerala"
+478,N,1479,101,150,80,92,L,Bp,23/03/2020,22,M,Kanpur,Kanpur Nagar,Uttar Pradesh,India,H,23/03/2020,Travelled from USA
+479,P,1480,101,150,80,92,H,Bp,23/03/2020,73,M,Pilibhit,Pilibhit,Uttar Pradesh,India,R,23/03/2020,Travelled from Saudi Arabia
+480,N,1481,101,150,80,92,L,Bp,23/03/2020,69,M,Kangra,Kangra,Himachal Pradesh,Tibet,D,23/03/2020,"Tibetan refugee,died at a hospital in Tanda. Travelled from the US on 15.03.2020"
+481,P,1482,101,150,80,92,H,Bp,23/03/2020,22,M,Kangra,Shahid Bhagat Singh Nagar,Punjab,India,H,23/03/2020,Grand son of P182
+482,N,1483,101,150,80,92,L,Bp,23/03/2020,22,M,Mohali,S.A.S. Nagar,Punjab,India,H,23/03/2020,"Close contact of Patient (Patient Unknown, likely P 201, 266, 267 or 268)"
+483,P,1484,101,150,80,92,H,Bp,23/03/2020,22,F,Mohali,Jodhpur,Rajasthan,India,H,23/03/2020,Details awaited
+484,N,1485,101,150,80,92,L,Bp,23/03/2020,22,F,Mohali,Pratapgarh,Rajasthan,India,H,23/03/2020,Details awaited
+485,N,1486,102,150,80,92,H,Bp,23/03/2020,22,F,Mohali,Pratapgarh,Rajasthan,India,H,23/03/2020,Details awaited
+486,P,1487,102,150,80,92,L,Bp,23/03/2020,25,F,Visakhapatnam,Visakhapatnam,Andhra Pradesh,India,H,23/03/2020,"Travelled from Birmingham,UK"
+487,N,1488,102,150,80,92,H,Bp,23/03/2020,25,F,Visakhapatnam,Gurugram,Haryana,India,H,23/03/2020,Details Awaited
+488,P,1489,102,150,80,92,L,Bp,23/03/2020,25,F,Visakhapatnam,Gurugram,Haryana,India,H,23/03/2020,Details Awaited
+489,N,1490,102,150,80,92,H,Bp,23/03/2020,25,F,Visakhapatnam,Gurugram,Haryana,India,H,23/03/2020,Details Awaited
+490,P,1491,102,150,80,92,L,Bp,23/03/2020,25,F,Visakhapatnam,Gurugram,Haryana,India,H,23/03/2020,Details Awaited
+491,N,1492,102,150,80,92,H,Cholestrol,23/03/2020,25,F,Visakhapatnam,Gurugram,Haryana,India,H,23/03/2020,Details Awaited
+492,P,1493,102,150,80,92,L,Bp,23/03/2020,25,F,Visakhapatnam,Gurugram,Haryana,India,H,23/03/2020,Sonipat
+493,N,1494,102,150,80,92,H,Cholestrol,23/03/2020,25,F,Chennai,Chennai,Tamil Nadu,India,H,23/03/2020,Travelled from London via Bangaloe then to Chennai by Car on 14th March
+494,N,1495,102,150,80,92,L,Bp,23/03/2020,48,F,Tiruppur,Tiruppur,Tamil Nadu,India,H,23/03/2020,Travelled from London via Coimbatore on 15th March
+495,P,1496,102,150,80,92,H,Cholestrol,23/03/2020,54,F,Madurai,Madurai,Tamil Nadu,India,D,25/03/2020,Annanagar at Rajaji Hosp. No mention of travel history. Came in contact with some Thailand nationals who were on tour in the state.
+496,N,1497,102,150,80,92,L,Bp,23/03/2020,24,F,Madurai,Patna,Bihar,India,H,23/03/2020,Travelled from Scotland
+497,P,1498,102,150,80,92,H,Cholestrol,23/03/2020,35,F,Jaunpur,Jaunpur,Uttar Pradesh,India,H,23/03/2020,Travelled from Saudi Arabia on 15th Mar; Symptons on 21st Mar
+498,N,1499,102,150,80,93,L,Bp,23/03/2020,41,F,Kaushambi,Ghaziabad,Uttar Pradesh,India,H,23/03/2020,"Doctor, Travelled from France on 13th Mar"
+499,P,1500,102,150,80,93,H,Cholestrol,24/03/2020,38,F,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Travelled from Abu Dhabi 
+500,N,1501,102,150,80,93,L,Bp,24/03/2020,38,F,Mumbai,Mumbai,Maharashtra,India,H,23/03/2020,Details awaited
+501,P,1502,102,150,80,93,H,Cholestrol,24/03/2020,38,F,Thane,Thane,Maharashtra,India,H,23/03/2020,"Contact with P 80, Details awaited"
+502,N,1503,102,150,80,93,L,Bp,24/03/2020,38,F,Sangli,Sangli,Maharashtra,India,H,23/03/2020,"Travelled from Saudi Arabia, Details awaited"
+503,N,1504,102,150,80,93,H,Cholestrol,24/03/2020,38,F,Sangli,Sangli,Maharashtra,India,H,23/03/2020,"Travelled from Saudi Arabia, Details awaited"
+504,P,1505,102,150,80,93,L,Bp,24/03/2020,38,F,Sangli,Sangli,Maharashtra,India,H,23/03/2020,"Travelled from Saudi Arabia, Details awaited"
+505,N,1506,102,150,80,93,H,Cholestrol,24/03/2020,38,F,Sangli,Sangli,Maharashtra,India,H,23/03/2020,"Travelled from Saudi Arabia, Details awaited"
+506,P,1507,102,150,80,93,L,Bp,24/03/2020,45,F,Khandala,Satara,Maharashtra,India,H,23/03/2020,"Travelled from Dubai, UAE"
+507,N,1508,102,150,80,93,H,Cholestrol,24/03/2020,23,F,Imphal,Imphal West,Manipur,India,R,06/04/2020,Travelled from London
+508,P,1509,102,150,80,93,L,Bp,24/03/2020,41,F,Pune Rural,Pune,Maharashtra,India,R,09/04/2020,"Anganwadi Worker, Visited Velha, Attended Marriage, Tested Positive on 24th March, 2020"
+509,N,1510,102,150,80,93,H,Cholestrol,24/03/2020,41,M,Pune Rural,Pune,Maharashtra,India,H,24/03/2020,Details awaited
+510,P,1511,102,150,80,93,L,Bp,24/03/2020,41,F,Pune Rural,Pune,Maharashtra,India,H,24/03/2020,Details awaited
+511,N,1512,102,150,80,93,H,Cholestrol,24/03/2020,41,M,Pune Rural,Satara,Maharashtra,India,H,24/03/2020,Details awaited
+512,N,1513,102,150,80,93,L,Bp,24/03/2020,41,F,Jabalpur,Jabalpur,Madhya Pradesh,India,H,23/03/2020,"Contact Transmission,Details awaited"
+513,P,1514,102,150,80,93,H,Cholestrol,24/03/2020,32,M,Mangaluru,Other State,Karnataka,India,R,07/04/2020,"Kasaragod Resident; Travelled from Dubai, landed in Mangaluru  Airport on 20th Mar"
+514,N,1515,102,150,80,93,L,Bp,24/03/2020,40,F,Mangaluru,Uttara Kannada,Karnataka,India,R,11/04/2020,"Travelled from Dubai, landed in Mangaluru  Airport on 21st Mar"
+515,P,1516,102,150,80,93,H,Cholestrol,24/03/2020,65,M,Bhatkal,Uttara Kannada,Karnataka,India,R,11/04/2020,"Travelled from Dubai, Landed in Mumbai (18th Mar)  and Travelled by train to Uttara Kannada"
+516,N,1517,102,150,80,93,L,Bp,24/03/2020,56,F,Chikkaballapura,Chikkaballapura,Karnataka,India,R,24/03/2020,"Travelled from Mecca, Saudi Arabia along with P285 and P382, via Hyderabad (14th Mar) to Hindupur by train and to Gowribidanur by bus"
+517,P,1518,102,150,80,93,H,Cholestrol,24/03/2020,56,M,Bhatkal,Kozhikode,Kerala,India,H,24/03/2020,"Travelled from Dubai, Indigo  6E: 89"
+518,N,1519,102,150,80,93,L,Bp,24/03/2020,56,F,Chikkaballapura,Kozhikode,Kerala,India,H,24/03/2020,"Travelled from Dubai, Air India AI 906 landed at Chennai "
+519,P,1520,102,150,80,93,H,Cholestrol,24/03/2020,65,M,Surat,Surat,Gujarat,India,H,24/03/2020,"Travelled from Saudi Arabia, More details awaited"
+520,N,1521,102,150,80,93,L,Bp,24/03/2020,53,F,Gandhinagar,Gandhinagar,Gujarat,India,H,24/03/2020,Uncle of P295
+521,N,1522,102,150,80,93,H,Cholestrol,24/03/2020,54,M,Gandhinagar,Gandhinagar,Gujarat,India,H,24/03/2020,Aunt of P295
+522,P,1523,102,150,80,93,L,Bp,24/03/2020,58,F,Beleghata,Kolkata,West Bengal,India,H,24/03/2020,"Travelled from Egypt, Details awaited"
+523,N,1524,102,150,80,93,H,Cholestrol,24/03/2020,74,M,Porur,Chennai,Tamil Nadu,India,H,24/03/2020,Travelled from USA via Singapore on 12th March
+524,P,1525,102,150,80,93,L,Bp,24/03/2020,52,F,Purasaivakkam,Chennai,Tamil Nadu,India,H,24/03/2020,Travelled from USA via London on 17 March
+525,N,1526,102,150,80,93,H,Cholestrol,24/03/2020,25,M,Keelkattalai,Chengalpattu,Tamil Nadu,India,H,24/03/2020,Travelled from Switzerland via Delhi on 15th March
+526,P,1527,102,150,80,93,L,Bp,24/03/2020,49,F,Kokapet,Ranga Reddy,Telangana,India,H,24/03/2020,Travelled from London
+527,N,1528,102,150,80,93,H,Cholestrol,24/03/2020,39,M,Chandanagar,Ranga Reddy,Telangana,India,H,24/03/2020,Travelled from Germany
+528,P,1529,102,150,80,93,L,Bp,24/03/2020,61,F,Begumpet,Hyderabad,Telangana,India,H,24/03/2020,Travelled from Saudi Arabia
+529,N,1530,102,150,80,93,H,Cholestrol,24/03/2020,56,M,Bengaluru,Bengaluru Urban,Karnataka,India,H,24/03/2020,"Contact of P150, KA-P13"
+530,N,1531,102,150,80,93,L,Bp,24/03/2020,47,F,Mangaluru,Other State,Karnataka,India,R,07/04/2020,"Resident of Kasargod, Kerala. With a Travel History to Dubai and Arrived in Mangaluru by Air India Express flight IX-814 at 5am on Mar 19"
+531,P,1532,102,150,80,93,H,Cholestrol,24/03/2020,55,M,Beleghata,Kolkata,West Bengal,India,H,24/03/2020,"Travelled from UK, Details Awaited"
+532,N,1533,102,150,80,93,L,Bp,24/03/2020,65,F,Mangaluru,Bandipora,Jammu and Kashmir,India,D,24/03/2020,Travel History (attended delhi event)
+533,P,1534,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Natipora,Srinagar,Jammu and Kashmir,India,H,24/03/2020,Contact Transmission (was in same flight with P 159)
+534,N,1535,102,150,80,93,L,Bp,24/03/2020,57,F,Phillaur,Jalandhar,Punjab,India,H,24/03/2020,Details awaited
+535,P,1536,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Phillaur,Jalandhar,Punjab,India,H,24/03/2020,Details awaited
+536,N,1537,102,150,80,93,L,Bp,24/03/2020,57,F,Phillaur,Jalandhar,Punjab,India,H,24/03/2020,Details awaited
+537,P,1538,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Kalyan-Dombivali,Thane,Maharashtra,India,H,24/03/2020,Details awaited
+538,N,1539,102,150,80,93,L,Bp,24/03/2020,57,F,Phillaur,Mumbai,Maharashtra,India,H,24/03/2020,Details awaited
+539,N,1540,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Kalyan-Dombivali,Mumbai,Maharashtra,India,H,24/03/2020,Details awaited
+540,P,1541,102,150,80,93,L,Bp,24/03/2020,57,F,Phillaur,Mumbai,Maharashtra,India,H,24/03/2020,Details awaited
+541,N,1542,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Kalyan-Dombivali,Mumbai,Maharashtra,India,H,24/03/2020,Details awaited
+542,P,1543,102,150,80,93,L,Bp,24/03/2020,57,F,Ahmednagar,Ahmednagar,Maharashtra,India,H,24/03/2020,Details awaited
+543,N,1544,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Noida,Gautam Buddha Nagar,Uttar Pradesh,India,H,24/03/2020,"No travel history, husband has had contact with a colleague from London"
+544,P,1545,102,150,80,93,L,Bp,24/03/2020,57,F,Noida,S.A.S. Nagar,Punjab,India,H,24/03/2020,Details awaited
+545,N,1546,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Noida,Hoshiarpur,Punjab,India,H,24/03/2020,Details awaited
+546,P,1547,102,150,80,93,L,Bp,24/03/2020,57,F,Noida,Hoshiarpur,Punjab,India,H,24/03/2020,Details awaited
+547,N,1548,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Noida,Thiruvananthapuram,Kerala,India,H,24/03/2020,Details awaited
+548,N,1549,102,150,80,93,L,Bp,24/03/2020,57,F,Noida,Palakkad,Kerala,India,H,24/03/2020,Travelled from Dubai Air India AI 938
+549,P,1550,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Noida,Kasaragod,Kerala,India,H,24/03/2020,(foreign travel from UK likely)
+550,N,1551,102,150,80,93,L,Bp,24/03/2020,57,F,Noida,Kasaragod,Kerala,India,H,24/03/2020,"Travelled from Sharjah Air Arabia G9 454, Admitted in Kozhikode"
+551,P,1552,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Noida,Kasaragod,Kerala,India,H,24/03/2020,Travelled from Dubai
+552,N,1553,102,150,80,93,L,Bp,24/03/2020,57,F,Noida,Kasaragod,Kerala,India,H,24/03/2020,Travelled from Dubai
+553,P,1554,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Noida,Malappuram,Kerala,India,H,24/03/2020,Travelled from Dubai Emirates EK 0532
+554,N,1555,102,150,80,93,L,Bp,24/03/2020,57,F,Noida,Alappuzha,Kerala,India,H,24/03/2020,Travelled from Qatar to Goa Oman Air WY 662 and from there by train to Alappuzha
+555,P,1556,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Noida,Ernakulam,Kerala,India,H,24/03/2020,Close relative of  P380
+556,N,1557,102,150,80,93,L,Bp,24/03/2020,57,F,Noida,Kottayam,Kerala,India,R,03/04/2020,Nurse at Kottayam Medical College
+557,N,1558,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Noida,Kasaragod,Kerala,India,H,24/03/2020,Details awaited  (Contact Transmission likely)
+558,P,1559,102,150,80,93,L,Bp,24/03/2020,57,F,Noida,Kasaragod,Kerala,India,H,24/03/2020,Details awaited
+559,N,1560,102,150,80,93,H,Cholestrol,24/03/2020,70,M,Mangaluru,Other State,Karnataka,India,R,13/04/2020,"Resident of Kasargod, Kerala. With a Travel History to Saudi Arabia and Arrived in Mangaluru. Date of arrival is not known."
+560,P,1561,102,150,80,93,L,Bp,24/03/2020,23,F,Mangaluru,Other State,Karnataka,India,R,07/04/2020,"Resident of Kasargod, Kerala. With a Travel History to Dubai and Arrived in Mangaluru by Spicejet Flight SG-60 at 5:30pm on Mar 20"
+561,N,1562,102,150,80,93,H,Cholestrol,24/03/2020,25,M,Srikalahasti,Chittoor,Andhra Pradesh,India,H,24/03/2020,Travelled from London
+562,P,1563,102,150,80,93,L,Bp,24/03/2020,65,F,Chennai,Chennai,Tamil Nadu,India,H,24/03/2020,Travelled from New Zealand
+563,N,1564,102,150,80,93,H,Cholestrol,24/03/2020,55,M,Saidapet,Chennai,Tamil Nadu,India,H,24/03/2020,No travel history
+564,P,1565,102,150,80,93,L,Bp,24/03/2020,25,F,Chennai,Chennai,Tamil Nadu,India,H,24/03/2020,Travelled from London via Bengaluru
+565,N,1566,102,150,80,93,H,Cholestrol,24/03/2020,64,M,Manikonda,Hyderabad,Telangana,India,H,24/03/2020,Contact with TS-P25
+566,N,1567,102,150,80,93,L,Bp,24/03/2020,57,F,Panipat,Panipat,Haryana,India,H,24/03/2020,Details awaited
+567,P,1568,102,150,80,93,H,Cholestrol,24/03/2020,61,M,Faridabad,Faridabad,Haryana,India,H,24/03/2020,Details awaited
+568,N,1569,102,150,80,93,L,Bp,24/03/2020,66,F,Gandhinagar,Gandhinagar,Gujarat,India,H,25/03/2020,Wife of P295
+569,P,1570,102,150,80,93,H,Cholestrol,24/03/2020,36,M,Rajkot,Rajkot,Gujarat,India,H,26/03/2020,Travelled from Saudi Arabia
+570,N,1571,102,150,80,93,L,Bp,24/03/2020,75,F,Rajkot,Rajkot,Gujarat,India,H,27/03/2020,Travelled from Saudi Arabia
+571,P,1572,102,150,80,93,H,Cholestrol,24/03/2020,57,M,Rajkot,Bhadradri Kothagudem,Telangana,India,H,25/03/2020,Contact with TS-P26
+572,N,1573,102,150,80,93,L,Bp,24/03/2020,57,F,Rajkot,Bhadradri Kothagudem,Telangana,India,H,25/03/2020,Contact with TS-P26
+573,P,1574,102,150,80,93,H,Cholestrol,25/03/2020,57,M,Rajkot,Patna,Bihar,India,H,25/03/2020,Details awaited
+574,N,1575,102,150,80,93,L,Bp,25/03/2020,57,F,Indore,Indore,Madhya Pradesh,India,H,25/03/2020,"Details awaited, (family)"
+575,N,1576,102,150,80,93,H,Cholestrol,25/03/2020,57,M,Indore,Indore,Madhya Pradesh,India,H,25/03/2020,"Details awaited, (family)"
+576,P,1577,102,150,80,93,L,Bp,25/03/2020,57,F,Indore,Indore,Madhya Pradesh,India,H,25/03/2020,"Details awaited, (family)"
+577,N,1578,102,150,80,93,H,Cholestrol,25/03/2020,57,M,Indore,Indore,Madhya Pradesh,India,H,25/03/2020,Travelled from Rishikesh
+578,P,1579,102,150,80,93,L,Bp,25/03/2020,65,F,Ujjain,Ujjain,Madhya Pradesh,India,D,25/03/2020,Details awaited
+579,N,1580,102,150,80,93,H,Cholestrol,25/03/2020,65,M,Sangli,Sangli,Maharashtra,India,H,25/03/2020,Details awaited
+580,P,1581,102,150,80,93,L,Bp,25/03/2020,65,F,Sangli,Sangli,Maharashtra,India,H,25/03/2020,Details awaited
+581,N,1582,102,150,80,93,H,Cholestrol,25/03/2020,65,M,Sangli,Sangli,Maharashtra,India,H,25/03/2020,Details awaited
+582,P,1583,102,150,80,93,L,Bp,25/03/2020,65,F,Sangli,Sangli,Maharashtra,India,H,25/03/2020,Details awaited
+583,N,1584,102,150,80,93,H,Cholestrol,25/03/2020,65,M,Sangli,Sangli,Maharashtra,India,H,25/03/2020,Details awaited
+584,N,1585,102,150,80,93,L,Bp,25/03/2020,65,F,Sangli,Surat,Gujarat,India,H,25/03/2020,Details awaited
+585,P,1586,102,150,80,93,H,Cholestrol,25/03/2020,65,M,Sangli,Surat,Gujarat,India,H,25/03/2020,Details awaited
+586,N,1587,102,150,80,93,L,Bp,25/03/2020,65,F,Sangli,Gwalior,Madhya Pradesh,India,H,24/03/2020,Native of Allahabad
+587,P,1588,102,150,80,93,H,Cholestrol,25/03/2020,40,M,Sangli,Bhopal,Madhya Pradesh,India,H,25/03/2020,"Father of P362, Journalist "
